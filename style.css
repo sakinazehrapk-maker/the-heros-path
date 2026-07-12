@@ -36,3 +36,18 @@ button:hover{
     background:#fde047;
     transform:scale(1.05);
 }
+.screen{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+.hidden{
+    display:none;
+}
+h2{
+    font-size:42px;
+    margin-bottom:20px;
+}
