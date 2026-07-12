@@ -1,0 +1,36 @@
+[
+    {
+        "speaker": "Narrator",
+        "text": "Heroes are not born..."
+    },
+    {
+        "speaker": "Narrator",
+        "text": "They are remembered."
+    },
+    {
+        "speaker": "Narrator",
+        "text": "And every legend begins with a single choice."
+    },
+    {
+        "speaker": "Narrator",
+        "text": "What kind of hero will you become?",
+        "choices": [
+            {
+                "text": "Compassion",
+                "next": 4
+            },
+            {
+                "text": "Strength",
+                "next": 5
+            }
+        ]
+    },
+    {
+        "speaker": "Narrator",
+        "text": "You believe every life is worth saving."
+    },
+    {
+        "speaker": "Narrator",
+        "text": "You believe difficult sacrifices are necessary."
+    }
+]

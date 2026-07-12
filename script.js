@@ -4,35 +4,19 @@ const startBtn=document.getElementById("startBtn");
 const continueBtn=document.getElementById("continueBtn");
 const speaker=document.getElementById("speaker");
 const dialogue=document.getElementById("dialogue");
-const intro=[
-    {
-        speaker: "Narrator",
-        text: "Heroes are not born..."
-    },
-    {
-        speaker: "Narrator",
-        text: "They are remembered."
-    },
-    {
-        speaker: "Narrator",
-        text: "And every legend begins with a single choice."
-    }
-];
-let currentLine=0;
-startBtn.addEventListener("click",()=>{
+let scenes=[];
+let currentScene = 0;
+startBtn.addEventListener("click", async()=>{
     mainMenu.classList.add("hidden");
     storyScreen.classList.remove("hidden");
-    showDialogue();
+    await loadScenes();
+    currentScene = 0;
+    loadScene();
 });
 continueBtn.addEventListener("click",()=>{
-    currentLine++;
-    if(currentLine < intro.length){
-        showDialogue();
-    }else{
-        continueBtn.classList.add("hidden");
-        choices.classList.remove("hidden");
-        choice1.textContent="Compassion";
-        choice2.textContent="Strength";
+    currentScene++;
+    if(currentScene < scenes.length){
+        loadScene();
     }
 });
 function showDialogue(){
@@ -40,12 +24,27 @@ function showDialogue(){
     dialogue.textContent=intro[currentLine].text;
 }
 choice1.addEventListener("click",()=>{
-    dialogue.textContent=
-        "You believe a hero protects every life, no matter the cost.";
-    choices.classList.add("hidden");
+    currentScene = scenes[currentScene].choices[0].next;
+    loadScene();
 });
 choice2.addEventListener("click",()=>{
-    dialogue.textContent=
-        "You believe a hero must make difficult sacrifices to save the many.";
-    choices.classList.add("hidden");
+    currentScene = scenes[currentScene].choices[1].next;
+    loadScene();
 });
+async function loadScenes(){
+    const response=await fetch("data/scenes.json");
+    scenes=await response.json();
+}
+function loadScene(){
+    const scene = scenes[currentScene];
+    speaker.textContent=scene.speaker;
+    dialogue.textContent=scene.text;
+    choices.classList.add("hidden");
+    continueBtn.classList.remove("hidden");
+    if(scene.choices){
+        continueBtn.classList.add("hidden");
+        choices.classList.remove("hidden");
+        choice1.textContent = scene.choices[0].text;
+        choice2.textContent = scene.choices[1].text;
+    }
+}
