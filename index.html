@@ -9,14 +9,19 @@
 <body>
     <div id="mainMenu" class="screen">
         <h1>The Hero's Path</h1>
-        <p>"Every hero saves the world.Every villain thought they were the hero."</p>
+        
         <button id="startBtn">New Game</button>
     </div>
     <div id="storyScreen" class="screen hidden">
-        <h2>Heroes are not born...</h2>
-        <p>They are remembered.</p>
-        <button id="continueBtn">Continue</button>
-    </div>
+    <h2 id="speaker">Narrator</h2>
+    <p id="dialogue">
+        Heroes are not born...
+    </p>
+    <div id="choices" class="hidden">
+    <button class="choice-btn" id="choice1"></button>
+    <button class="choice-btn" id="choice2"></button></div>
+    <button id="continueBtn">Continue</button>
+</div>
     <script src="script.js"></script>
 </body>
 </html>
