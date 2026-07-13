@@ -1,35 +1,44 @@
 [
     {
+        "id": "intro_1",
         "speaker": "Narrator",
-        "text": "Heroes are not born..."
+        "text": "Heroes are not born...",
+        "next": "intro_2"
     },
     {
+        "id": "intro_2",
         "speaker": "Narrator",
-        "text": "They are remembered."
+        "text": "They are remembered.",
+        "next": "intro_3"
     },
     {
+        "id": "intro_3",
         "speaker": "Narrator",
-        "text": "And every legend begins with a single choice."
+        "text": "And every legend begins with a single choice.",
+        "next": "hero_choice"
     },
     {
+        "id": "hero_choice",
         "speaker": "Narrator",
         "text": "What kind of hero will you become?",
         "choices": [
             {
                 "text": "Compassion",
-                "next": 4
+                "next": "compassion"
             },
             {
                 "text": "Strength",
-                "next": 5
+                "next": "strength"
             }
         ]
     },
     {
+        "id": "compassion",
         "speaker": "Narrator",
         "text": "You believe every life is worth saving."
     },
     {
+        "id": "strength",
         "speaker": "Narrator",
         "text": "You believe difficult sacrifices are necessary."
     }
