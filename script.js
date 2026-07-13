@@ -10,7 +10,12 @@ const nameBox=document.getElementById("nameBox");
 const heroName=document.getElementById("heroName");
 const saveName=document.getElementById("saveName");
 let player={
-    name:"Hero"
+    name:"Hero",
+    justice:0,
+    mercy:0,
+    duty:0,
+    ambition:0,
+    decisions:[]
 };
 const portrait=document.getElementById("portrait");
 const choices=document.getElementById("choices");
@@ -21,6 +26,16 @@ const castleBtn=document.getElementById("castleBtn");
 const barracksBtn=document.getElementById("barracksBtn");
 const marketBtn=document.getElementById("marketBtn");
 const backToHub=document.getElementById("backToHub");
+const investigationScreen=document.getElementById("investigationScreen");
+const talkBoy=document.getElementById("talkBoy");
+const talkBaker=document.getElementById("talkBaker");
+const talkGuard=document.getElementById("talkGuard");
+const judgeBtn=document.getElementById("judgeBtn");
+let evidence={
+    boy:false,
+    baker:false,
+    guard:false
+};
 
 startBtn.addEventListener("click", async()=>{
     mainMenu.classList.add("hidden");
@@ -87,8 +102,8 @@ saveName.addEventListener("click",()=>{
         return;
     }
     player.name=heroName.value.trim();
-    storyScreen.classList.add("hidden");
-    hubScreen.classList.remove("hidden");
+    currentScene="king_1";
+    loadScene();
 });
 castleBtn.addEventListener("click",()=>{
     openScene("castle");
@@ -108,4 +123,38 @@ marketBtn.addEventListener("click",()=>{
 backToHub.addEventListener("click",()=>{
     storyScreen.classList.add("hidden");
     hubScreen.classList.remove("hidden");
+});
+function rememberDecision(id){
+    player.decisions.push(id);
+}
+talkBoy.addEventListener("click",()=>{
+    evidence.boy=true;
+    alert(
+`"I wasn't stealing for myself.
+My little sister hasn't eaten in three days."`
+);
+});
+talkBaker.addEventListener("click",()=>{
+    evidence.baker=true;
+    alert(
+`"If one thief walks free...
+Others will follow."`
+);
+});
+talkGuard.addEventListener("click",()=>{
+    evidence.guard=true;
+    alert(
+`"The boy never fought back.
+He surrendered immediately."`
+);
+});
+judgeBtn.addEventListener("click",()=>{
+    if(!evidence.boy || !evidence.baker || !evidence.guard){
+        alert("The King expects you to hear everyone before passing judgment.");
+        return;
+    }
+    investigationScreen.classList.add("hidden");
+    storyScreen.classList.remove("hidden");
+    currentScene="bread_choice";
+    loadScene();
 });
