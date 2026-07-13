@@ -62,3 +62,18 @@ h2{
     font-size:16px;
     cursor:pointer;
 }
+#nameBox{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+    margin-top:25px;
+}
+#heroName{
+    padding:12px;
+    font-size:18px;
+    width:250px;
+}
+#saveName{
+    padding:12px;
+    cursor:pointer;
+}

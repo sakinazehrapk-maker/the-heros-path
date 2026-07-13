@@ -33,13 +33,20 @@
         ]
     },
     {
-        "id": "compassion",
-        "speaker": "Narrator",
-        "text": "You believe every life is worth saving."
-    },
-    {
-        "id": "strength",
-        "speaker": "Narrator",
-        "text": "You believe difficult sacrifices are necessary."
-    }
+    "id":"compassion",
+    "speaker":"Narrator",
+    "text":"You believe every life is worth saving.",
+    "next":"name_hero"
+},
+{
+    "id":"strength",
+    "speaker":"Narrator",
+    "text":"You believe difficult sacrifices are necessary.",
+    "next":"name_hero"
+},
+{
+    "id":"name_hero",
+    "speaker":"Narrator",
+    "text":"Before your journey begins... tell us your name."
+}
 ]
