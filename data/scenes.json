@@ -1,22 +1,31 @@
 [
     {
-        "id": "intro_1",
-        "speaker": "Narrator",
-        "text": "Heroes are not born...",
-        "next": "intro_2"
-    },
+    "id": "capital",
+    "speaker": "Royal Advisor",
+    "portrait": "assets/portraits/advisor.png",
+    "text": "Welcome to the Capital, {{name}}. His Majesty awaits your arrival."
+},
     {
-        "id": "intro_2",
-        "speaker": "Narrator",
-        "text": "They are remembered.",
-        "next": "intro_3"
-    },
-    {
-        "id": "intro_3",
-        "speaker": "Narrator",
-        "text": "And every legend begins with a single choice.",
-        "next": "hero_choice"
-    },
+    "id":"intro_1",
+    "speaker":"Royal Advisor",
+    "portrait":"assets/portraits/advisor.png",
+    "text":"Your Majesty... the prophecy has finally begun.",
+    "next":"intro_2"
+},
+{
+    "id":"intro_2",
+    "speaker":"Royal Advisor",
+    "portrait":"assets/portraits/advisor.png",
+    "text":"For generations, we have awaited the one destined to defeat the Dark Lord.",
+    "next":"intro_3"
+},
+{
+    "id":"intro_3",
+    "speaker":"Royal Advisor",
+    "portrait":"assets/portraits/advisor.png",
+    "text":"That hero... is you.",
+    "next":"hero_choice"
+},
     {
         "id": "hero_choice",
         "speaker": "Narrator",

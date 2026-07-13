@@ -77,3 +77,10 @@ h2{
     padding:12px;
     cursor:pointer;
 }
+#portrait{
+    width:180px;
+    height:180px;
+    object-fit:cover;
+    border-radius:12px;
+    margin-bottom:20px;
+}

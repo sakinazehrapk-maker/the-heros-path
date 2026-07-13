@@ -12,12 +12,16 @@ const saveName=document.getElementById("saveName");
 let player={
     name:"Hero"
 };
+const portrait=document.getElementById("portrait");
+const choices=document.getElementById("choices");
+const choice1=document.getElementById("choice1");
+const choice2=document.getElementById("choice2");
 
 startBtn.addEventListener("click", async()=>{
     mainMenu.classList.add("hidden");
     storyScreen.classList.remove("hidden");
     await loadScenes();
-    currentScene = 0;
+    currentScene="intro_1";
     loadScene();
 });
 continueBtn.addEventListener("click", () => {
@@ -27,20 +31,22 @@ continueBtn.addEventListener("click", () => {
         loadScene();
     }
 });
-function showDialogue(){
-    speaker.textContent=intro[currentLine].speaker;
-    dialogue.textContent=intro[currentLine].text;
-}
+
 choice1.addEventListener("click",()=>{
     const scene=getScene(currentScene);
+    if (!scene.choices) return;
     currentScene=scene.choices[0].next;
     loadScene();
 });
 choice2.addEventListener("click",()=>{
     const scene=getScene(currentScene);
-    currentScene=scene.choices[1].next;
+    if (!scene.choices) return;
+    currentScene = scene.choices[1].next;
     loadScene();
 });
+function getScene(id){
+    return scenes.find(scene => scene.id === id);
+}
 async function loadScenes(){
     const response=await fetch("data/scenes.json");
     scenes=await response.json();
@@ -48,7 +54,8 @@ async function loadScenes(){
 function loadScene(){
     const scene=getScene(currentScene);
     speaker.textContent = scene.speaker;
-    dialogue.textContent = scene.text;
+    portrait.src=scene.portrait || "";
+    dialogue.textContent=scene.text.replace("{{name}}", player.name);
     choices.classList.add("hidden");
     continueBtn.classList.remove("hidden");
     nameBox.classList.add("hidden");
@@ -70,5 +77,7 @@ saveName.addEventListener("click",()=>{
         return;
     }
     player.name=heroName.value.trim();
-    alert("Welcome, " + player.name + "!");
+    player.name=heroName.value.trim();
+    currentScene="capital";
+    loadScene();
 });
