@@ -9,16 +9,24 @@
 <body>
     <div id="mainMenu" class="screen">
         <h1>The Hero's Path</h1>
-        <p>"Every hero saves the world.Every villain thought they were the hero."</p>
+        <p>"Every hero saves the world.
+            Every villain thought they were the hero."</p>
         <button id="startBtn">New Game</button>
     </div>
     <div id="storyScreen" class="screen hidden">
-        <img id="portrait" src="" alt="Character Portrait">
+        <img id="portrait" src="the-heros-path/assets/potraits/advisor.png" alt="Character Portrait">
     <h2 id="speaker">Narrator</h2>
     <p id="dialogue">
         Heroes are not born...
         They are remembered.
     </p>
+    <div id="hubScreen" class="screen hidden">
+    <h1>The Capital</h1>
+    <p>Where would you like to go?</p>
+    <button id="castleBtn">Castle</button>
+    <button id="barracksBtn">Barracks</button>
+    <button id="marketBtn">Marketplace</button>
+</div>
     <div id="nameBox" class="hidden">
     <input
         type="text"
@@ -32,6 +40,7 @@
     <button class="choice-btn" id="choice1"></button>
     <button class="choice-btn" id="choice2"></button></div>
     <button id="continueBtn">Continue</button>
+    <button id="backToHub" class="hidden">← Return to Capital</button>
 </div>
     <script src="script.js"></script>
 </body>

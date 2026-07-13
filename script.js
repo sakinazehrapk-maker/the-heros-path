@@ -16,6 +16,11 @@ const portrait=document.getElementById("portrait");
 const choices=document.getElementById("choices");
 const choice1=document.getElementById("choice1");
 const choice2=document.getElementById("choice2");
+const hubScreen=document.getElementById("hubScreen");
+const castleBtn=document.getElementById("castleBtn");
+const barracksBtn=document.getElementById("barracksBtn");
+const marketBtn=document.getElementById("marketBtn");
+const backToHub=document.getElementById("backToHub");
 
 startBtn.addEventListener("click", async()=>{
     mainMenu.classList.add("hidden");
@@ -53,22 +58,27 @@ async function loadScenes(){
 }
 function loadScene(){
     const scene=getScene(currentScene);
-    speaker.textContent = scene.speaker;
+    speaker.textContent=scene.speaker;
     portrait.src=scene.portrait || "";
     dialogue.textContent=scene.text.replace("{{name}}", player.name);
+    continueBtn.classList.add("hidden");
     choices.classList.add("hidden");
-    continueBtn.classList.remove("hidden");
     nameBox.classList.add("hidden");
-    if(scene.choices){
-        continueBtn.classList.add("hidden");
+    backToHub.classList.add("hidden");
+    if (scene.id === "name_hero") {
+        nameBox.classList.remove("hidden");
+    }
+    else if (scene.choices) {
         choices.classList.remove("hidden");
         choice1.textContent = scene.choices[0].text;
         choice2.textContent = scene.choices[1].text;
     }
-    if(scene.id==="name_hero"){
-    continueBtn.classList.add("hidden");
-    choices.classList.add("hidden");
-    nameBox.classList.remove("hidden");
+    else {
+        continueBtn.classList.remove("hidden");
+    }
+    const hubLocations=["castle", "king_intro", "marketplace", "barracks"];
+    if (hubLocations.includes(scene.id)){
+    backToHub.classList.remove("hidden");
 }
 }
 saveName.addEventListener("click",()=>{
@@ -77,7 +87,25 @@ saveName.addEventListener("click",()=>{
         return;
     }
     player.name=heroName.value.trim();
-    player.name=heroName.value.trim();
-    currentScene="capital";
+    storyScreen.classList.add("hidden");
+    hubScreen.classList.remove("hidden");
+});
+castleBtn.addEventListener("click",()=>{
+    openScene("castle");
+});
+barracksBtn.addEventListener("click",()=>{
+    openScene("barracks");
+});
+marketBtn.addEventListener("click",()=>{
+    openScene("marketplace");
+});
+    function openScene(sceneId){
+    hubScreen.classList.add("hidden");
+    storyScreen.classList.remove("hidden");
+    currentScene = sceneId;
     loadScene();
+}         
+backToHub.addEventListener("click",()=>{
+    storyScreen.classList.add("hidden");
+    hubScreen.classList.remove("hidden");
 });

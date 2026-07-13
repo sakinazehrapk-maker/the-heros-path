@@ -57,5 +57,30 @@
     "id":"name_hero",
     "speaker":"Narrator",
     "text":"Before your journey begins... tell us your name."
+},
+{
+    "id":"castle",
+    "speaker": "Royal Advisor",
+    "portrait": "assets/portraits/advisor.png",
+    "text": "His Majesty has been expecting you.",
+    "next": "king_intro"
+},
+{
+    "id": "king_intro",
+    "speaker": "King Aldric",
+    "portrait": "assets/portraits/king.png",
+    "text": "Welcome, {{name}}. The fate of our kingdom rests upon your shoulders."
+},
+{
+    "id": "marketplace",
+    "speaker": "Merchant",
+    "portrait": "assets/portraits/merchant.png",
+    "text": "Fresh fruit! Fine steel! Everything a hero could need!"
+},
+{
+    "id": "barracks",
+    "speaker": "Captain Rowan",
+    "portrait": "assets/portraits/captain.png",
+    "text": "Our soldiers have been waiting to meet the Hero."
 }
 ]
