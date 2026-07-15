@@ -139,3 +139,11 @@ choice2.addEventListener("click", () => {
     currentScene = scene.choices[1].next;
     loadScene();
 });
+if (currentScene==="merchant_choice"){
+    player.mercy+=1;
+    rememberDecision("helped_merchant");
+}
+if (currentScene==="merchant_choice"){
+    player.duty+=1;
+    rememberDecision("ignored_merchant");
+}

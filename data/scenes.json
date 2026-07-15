@@ -228,7 +228,110 @@
 {
     "id": "road_1",
     "speaker": "Narrator",
-    "text": "The stone roads of the capital slowly give way to dirt paths winding through ancient forests."
+    "text": "The towering gates of the capital slowly disappear behind you. For the first time in your life... your journey truly begins.",
+    "next": "road_2"
+},
+{
+    "id": "road_2",
+    "speaker": "Narrator",
+    "text": "The King's words echo in your mind... 'A Hero is not measured by the monsters they slay, but by the burdens they choose to carry.'",
+    "next": "road_3"
+},
+{
+    "id": "road_3",
+    "speaker": "Old Merchant",
+    "portrait": "assets/portraits/merchant.png",
+    "text": "Oi! Hero! Could you spare a moment for an old man?",
+    "next": "road_4"
+},
+{
+    "id": "road_4",
+    "speaker": "Narrator",
+    "text": "A wooden wagon sits crooked beside the road. One wheel has broken, and crates of supplies are scattered everywhere.",
+    "next": "merchant_choice"
+},
+{
+    "id": "merchant_choice",
+    "speaker": "Old Merchant",
+    "portrait": "assets/portraits/merchant.png",
+    "text": "If you could help me fix this wagon, I'd be forever grateful... but I know the kingdom needs its Hero.",
+    "choices": [
+        {
+            "text": "Help repair the wagon.",
+            "next": "help_merchant"
+        },
+        {
+            "text": "Continue to Ashwood.",
+            "next": "ignore_merchant"
+        }
+    ]
+},
+{
+    "id": "help_merchant",
+    "speaker": "Narrator",
+    "text": "You spend the next hour repairing the wagon. The old merchant thanks you with tears in his eyes before continuing safely down the road.",
+    "next": "forest_1"
+},
+{
+    "id": "ignore_merchant",
+    "speaker": "Narrator",
+    "text": "You apologize and continue toward Ashwood. As you walk away, you hear the old man sigh before beginning to gather his supplies alone.",
+    "next": "forest_1"
+},
+{
+    "id": "forest_1",
+    "speaker": "Narrator",
+    "text": "The deeper you travel into Ashwood Forest, the quieter the world becomes.",
+    "next": "forest_2"
+},
+{
+    "id": "forest_2",
+    "speaker": "Narrator",
+    "text": "No birds sing. No insects buzz. Only the sound of your footsteps echoes through the trees.",
+    "next": "forest_3"
+},
+{
+    "id": "forest_3",
+    "speaker": "Narrator",
+    "text": "A single crow suddenly bursts from the branches above, startling you. Your hand instinctively reaches for your sword... but nothing follows.",
+    "next": "forest_4"
+},
+{
+    "id": "forest_4",
+    "speaker": "Narrator",
+    "text": "Then you see it... smoke rising beyond the trees.",
+    "next": "ashwood_1"
+},
+{
+    "id": "ashwood_1",
+    "speaker": "Narrator",
+    "text":"You break into a run toward Ashwood Village.",
+    "next":"ashwood_2"
+},
+{
+    "id":"ashwood_2",
+    "speaker":"Narrator",
+    "text":"The village stands strangely silent. Doors are shut. Windows are boarded. The smell of smoke still hangs in the air.",
+    "next":"ashwood_3"
+},
+{
+    "id":"ashwood_3",
+    "speaker":"Village Child",
+    "portrait":"assets/portraits/child.png",
+    "text":"Y-you're... the Hero, aren't you?",
+    "next":"ashwood_4"
+},
+{
+    "id":"ashwood_4",
+    "speaker":"Village Child",
+    "portrait":"assets/portraits/child.png",
+    "text":"Please... you're too late...",
+    "next":"chapter2_end"
+},
+{
+    "id":"chapter2_end",
+    "speaker":"Narrator",
+    "text":"The child points toward the center of the village. Whatever happened here... has already begun."
 }
 ]
-             
+    
