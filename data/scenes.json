@@ -341,74 +341,74 @@
     "next": "village_2"
 },
 {
-    "id": "village_2",
-    "speaker": "Village Elder",
-    "portrait": "assets/portraits/elder.png",
-    "text": "So... the capital finally sent someone.",
-    "next": "village_3"
+    "id":"village_2",
+    "speaker":"Village Elder",
+    "portrait":"assets/portraits/elder.png",
+    "text":"So... the capital finally sent someone.",
+    "next":"village_3"
 },
 {
-    "id": "village_3",
-    "speaker": "Village Elder",
-    "portrait": "assets/portraits/elder.png",
-    "text": "We've buried seven people this month.",
-    "next": "village_4"
+    "id":"village_3",
+    "speaker":"Villge Elder",
+    "portrait":"assets/portraits/elder.png",
+    "text":"We've buried seven people this month.",
+    "next":"village_4"
 },
 {
-    "id": "village_4",
-    "speaker": "Village Elder",
-    "portrait": "assets/portraits/elder.png",
-    "text": "Every night... something comes from the forest.",
-    "next": "village_5"
+    "id":"village_4",
+    "speaker":"Village Elder",
+    "portrait":"assets/portraits/elder.png",
+    "text":"Every night... something comes from the forest.",
+    "next":"village_5"
 },
 {
-    "id": "village_5",
-    "speaker": "Village Elder",
-    "portrait": "assets/portraits/elder.png",
-    "text": "We never see it clearly. We only hear screams... and by sunrise, someone is gone.",
-    "next": "village_6"
+    "id":"village_5",
+    "speaker":"Village Elder",
+    "portrait":"assets/portraits/elder.png",
+    "text":"We never see it clearly. We only hear screams... and by sunrise, someone is gone.",
+    "next":"village_6"
 },
 {
-    "id": "village_6",
-    "speaker": "Narrator",
-    "text": "The villagers avoid looking toward the forest. Even speaking of it seems to fill them with dread.",
-    "next": "village_7"
+    "id":"village_6",
+    "speaker":"Narrator",
+    "text":"The villagers avoid looking toward the forest. Even speaking of it seems to fill them with dread.",
+    "next":"village_7"
 },
 {
-    "id": "village_7",
-    "speaker": "Village Child",
-    "portrait": "assets/portraits/child.png",
-    "text": "My father went looking for it three nights ago...",
-    "next": "village_8"
+    "id":"village_7",
+    "speaker":"Village Child",
+    "portrait":"assets/portraits/child.png",
+    "text":"My father went looking for it three nights ago...",
+    "next":"village_8"
 },
 {
-    "id": "village_8",
-    "speaker": "Village Child",
-    "portrait": "assets/portraits/child.png",
-    "text": "...he never came back.",
-    "next": "village_9"
+    "id":"village_8",
+    "speaker":"Village Child",
+    "portrait":"assets/portraits/child.png",
+    "text":"...he never came back.",
+    "next":"village_9"
 },
 {
-    "id": "village_9",
-    "speaker": "Village Elder",
-    "portrait": "assets/portraits/elder.png",
-    "text": "Hero... if you truly intend to help us... don't go into the forest after sunset.",
-    "next": "village_choice"
+    "id":"village_9",
+    "speaker":"Village Elder",
+    "portrait":"assets/portraits/elder.png",
+    "text":"Hero... if you truly intend to help us... don't go into the forest after sunset.",
+    "next":"village_choice"
 },
 {
-    "id": "village_choice",
-    "speaker": "Narrator",
-    "text": "The sun is beginning to set.",
-    "choices": [
+    "id":"village_choice",
+    "speaker":"Narrator",
+    "text":"The sun is beginning to set.",
+    "choices":[
         {
-            "text": "Enter the forest immediately.",
-            "next": "forest_night_1"
+            "text":"Enter the forest immediately.",
+            "next":"forest_night_1"
         },
         {
-            "text": "Wait until morning.",
-            "next": "village_night_1"
+            "text":"Wait until morning.",
+            "next":"village_night_1"
         }
     ]
 }
 ]
-    
+  
