@@ -105,15 +105,6 @@ saveName.addEventListener("click",()=>{
     currentScene="king_1";
     loadScene();
 });
-castleBtn.addEventListener("click",()=>{
-    openScene("castle");
-});
-barracksBtn.addEventListener("click",()=>{
-    openScene("barracks");
-});
-marketBtn.addEventListener("click",()=>{
-    openScene("marketplace");
-});
     function openScene(sceneId){
     hubScreen.classList.add("hidden");
     storyScreen.classList.remove("hidden");
@@ -127,34 +118,24 @@ backToHub.addEventListener("click",()=>{
 function rememberDecision(id){
     player.decisions.push(id);
 }
-talkBoy.addEventListener("click",()=>{
-    evidence.boy=true;
-    alert(
-`"I wasn't stealing for myself.
-My little sister hasn't eaten in three days."`
-);
-});
-talkBaker.addEventListener("click",()=>{
-    evidence.baker=true;
-    alert(
-`"If one thief walks free...
-Others will follow."`
-);
-});
-talkGuard.addEventListener("click",()=>{
-    evidence.guard=true;
-    alert(
-`"The boy never fought back.
-He surrendered immediately."`
-);
-});
-judgeBtn.addEventListener("click",()=>{
-    if(!evidence.boy || !evidence.baker || !evidence.guard){
-        alert("The King expects you to hear everyone before passing judgment.");
-        return;
+choice1.addEventListener("click", () => {
+    const scene = getScene(currentScene);
+    if (!scene.choices) return;
+    if(currentScene === "bread_choice"){
+        player.justice += 2;
+        player.duty += 1;
+        rememberDecision("arrested_child");
     }
-    investigationScreen.classList.add("hidden");
-    storyScreen.classList.remove("hidden");
-    currentScene="bread_choice";
+    currentScene = scene.choices[0].next;
+    loadScene();
+});
+choice2.addEventListener("click", () => {
+    const scene = getScene(currentScene);
+    if (!scene.choices) return;
+    if(currentScene === "bread_choice"){
+        player.mercy += 2;
+        rememberDecision("spared_child");
+    }
+    currentScene = scene.choices[1].next;
     loadScene();
 });

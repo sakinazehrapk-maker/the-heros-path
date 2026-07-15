@@ -100,7 +100,7 @@
 {
     "id": "guard_1",
     "speaker": "Royal Guard",
-    "portrait": "assets/portraits/advisor.png",
+    "portrait": "assets/portraits/guard.png",
     "text": "Your Majesty! Forgive the interruption, but we've caught a thief inside the marketplace.",
     "next": "bread_1"
 },
@@ -113,7 +113,7 @@
 {
     "id": "bread_2",
     "speaker": "Baker",
-    "portrait": "assets/portraits/advisor.png",
+    "portrait": "assets/portraits/baker.png",
     "text": "That boy stole from my shop! If we let him go, everyone will think stealing is acceptable!",
     "next": "bread_choice"
 },
@@ -137,12 +137,48 @@
     "id": "arrest_result",
     "speaker": "King Aldric",
     "portrait": "assets/portraits/king.png",
-    "text": "Justice must be upheld. Guards, take him away."
+    "text": "Justice must be upheld. Guards, take him away.",
+    "next":"city_arrest_1"
 },
 {
     "id": "mercy_result",
     "speaker": "King Aldric",
     "portrait": "assets/portraits/king.png",
-    "text": "Very well. Let compassion be our guide today. Release the child."
+    "text": "Very well. Let compassion be our guide today. Release the child.",
+    "next":"city_mercy_1"
+},
+{
+    "id":"city_arrest_1",
+    "speaker":"Narrator",
+    "text":"You leave the throne room and walk through the capital. Citizens greet you with admiration."
+},
+{
+    "id":"city_arrest_2",
+    "speaker":"Little Girl",
+    "portrait":"assets/portraits/girl.png",
+    "text":"Excuse me... have you seen my brother? He promised he'd bring bread home today."
+},
+{
+    "id":"city_arrest_3",
+    "speaker":"Narrator",
+    "text":"She doesn't recognize you. You remain silent as she searches the crowd."
+},
+{
+    "id":"city_mercy_1",
+    "speaker":"Narrator",
+    "text":"You leave the palace. The marketplace buzzes with life."
+},
+{
+    "id":"city_mercy_2",
+    "speaker":"Merchant",
+    "portrait":"assets/portraits/merchant.png",
+    "text":"Stop! Someone stole my money!"
+},
+{
+    "id":"city_mercy_3",
+    "speaker":"Guard",
+    "portrait":"assets/portraits/guard.png",
+    "text":"Mercy inspires kindness... but sometimes it also inspires confidence."
 }
 ]
+             
