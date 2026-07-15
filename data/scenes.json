@@ -409,6 +409,81 @@
             "next":"village_night_1"
         }
     ]
+},
+{
+    "id":"forest_night_1",
+    "speaker":"Narrator",
+    "text":"You tighten your cloak and step beyond the tree line. Behind you, the last lantern in Ashwood disappears from sight.",
+    "next":"forest_night_2"
+},
+{
+    "id":"forest_night_2",
+    "speaker":"Narrator",
+    "text":"Darkness swallows the narrow trail. Every branch seems to move, every shadow seems alive.",
+    "next":"forest_night_3"
+},
+{
+    "id":"forest_night_3",
+    "speaker":"Narrator",
+    "text":"Snap.",
+    "next":"forest_night_4"
+},
+{
+    "id":"forest_night_4",
+    "speaker":"Narrator",
+    "text":"You freeze. A twig breaks somewhere behind you.",
+    "next":"forest_night_5"
+},
+{
+    "id":"forest_night_5",
+    "speaker":"Narrator",
+    "text":"You turn instantly... but there is nothing there.",
+    "next":"forest_night_6"
+},
+{
+    "id":"forest_night_6",
+    "speaker":"Narrator",
+    "text":"Only the wind... and the distant sound of something breathing.",
+    "next":"forest_night_7"
+},
+{
+    "id":"forest_night_7",
+    "speaker":"Narrator",
+    "text":"The breathing stops.",
+    "next":"forest_night_8"
+},
+{
+    "id":"forest_night_8",
+    "speaker":"Narrator",
+    "text":"Silence.",
+    "next":"forest_night_9"
+},
+{
+    "id":"forest_night_9",
+    "speaker":"Narrator",
+    "text":"Then... a terrified scream echoes through the forest.",
+    "next":"forest_night_10"
+},
+{
+    "id":"forest_night_10",
+    "speaker":"Narrator",
+    "text":"It came from somewhere ahead.",
+    "next":"forest_choice_2"
+},
+{
+    "id":"forest_choice_2",
+    "speaker":"Narrator",
+    "text":"What will you do?",
+    "choices":[
+        {
+            "text":"Run toward the scream.",
+            "next":"rescue_1"
+        },
+        {
+            "text":"Move carefully and stay hidden.",
+            "next":"stealth_1"
+        }
+    ]
 }
 ]
-  
+                  
