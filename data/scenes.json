@@ -706,6 +706,98 @@
     "speaker":"Narrator",
     "text":"You lie there alone, bruised and confused. If it wanted you dead... why did it spare you?",
     "next":"chapter_end_1"
+},
+{
+    "id":"village_night_1",
+    "speaker":"Narrator",
+    "text":"You decide against entering the forest. The villagers reluctantly offer you a room for the night, though few expect anyone to sleep peacefully.",
+    "next":"village_night_2"
+},
+{
+    "id":"village_night_2",
+    "speaker":"Narrator",
+    "text":"As darkness blankets Ashwood, every sound feels louder than the last. Somewhere outside... something howls.",
+    "next":"village_night_3"
+},
+{
+    "id":"village_night_3",
+    "speaker":"Narrator",
+    "text":"A scream suddenly shatters the silence.",
+    "next":"village_night_4"
+},
+{
+    "id":"village_night_4",
+    "speaker":"Narrator",
+    "text":"The villagers rush to bar their doors. No one dares step outside.",
+    "next":"village_night_5"
+},
+{
+    "id":"village_night_5",
+    "speaker":"Village Elder",
+    "portrait":"assets/portraits/elder.png",
+    "text":"Don't open the door... whatever you hear.",
+    "next":"village_night_6"
+},
+{
+    "id":"village_night_6",
+    "speaker":"Narrator",
+    "text":"The screams stop as suddenly as they began. The rest of the night passes in complete silence.",
+    "next":"morning_1"
+},
+{
+    "id":"morning_1",
+    "speaker":"Narrator",
+    "text":"At first light, the village slowly comes back to life. People step outside with fearful eyes.",
+    "next":"morning_2"
+},
+{
+    "id":"morning_2",
+    "speaker":"Village Child",
+    "portrait":"assets/portraits/child.png",
+    "text":"Someone's missing...",
+    "next":"morning_3"
+},
+{
+    "id":"morning_3",
+    "speaker":"Narrator",
+    "text":"You follow a crowd to the edge of the forest.",
+    "next":"morning_4"
+},
+{
+    "id":"morning_4",
+    "speaker":"Narrator",
+    "text":"The ground is scarred with enormous claw marks. A broken lantern lies nearby, its glass scattered across the earth.",
+    "next":"morning_5"
+},
+{
+    "id":"morning_5",
+    "speaker":"Village Elder",
+    "portrait":"assets/portraits/elder.png",
+    "text":"It happened again... and once again, no one saw the creature clearly.",
+    "next":"morning_6"
+},
+{
+    "id":"morning_6",
+    "speaker":"Narrator",
+    "text":"As you kneel to examine the tracks, something catches your eye.",
+    "next":"morning_7"
+},
+{
+    "id":"morning_7",
+    "speaker":"Narrator",
+    "text":"Mixed with the massive footprints are ordinary human boot prints... leading deeper into the forest.",
+    "next":"morning_8"
+},
+{
+    "id":"morning_8",
+    "speaker":"Narrator",
+    "text":"Whatever happened here... someone else was present.",
+    "next":"chapter3_end"
+},
+{
+    "id":"chapter3_end",
+    "speaker":"Narrator",
+    "text":"You stand and look toward the dark forest. The mystery has only deepened."
 }
 ]
-             
+              
