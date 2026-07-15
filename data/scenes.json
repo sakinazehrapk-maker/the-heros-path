@@ -161,7 +161,9 @@
 {
     "id":"city_arrest_3",
     "speaker":"Narrator",
-    "text":"She doesn't recognize you. You remain silent as she searches the crowd."
+    "text":"She doesn't recognize you. You remain silent as she searches the crowd.",
+    "next": "mission_1"
+
 },
 {
     "id":"city_mercy_1",
@@ -178,7 +180,55 @@
     "id":"city_mercy_3",
     "speaker":"Guard",
     "portrait":"assets/portraits/guard.png",
-    "text":"Mercy inspires kindness... but sometimes it also inspires confidence."
+    "text":"Mercy inspires kindness... but sometimes it also inspires confidence.",
+    "next": "mission_1"
+
+},
+{
+    "id": "mission_1",
+    "speaker": "King Aldric",
+    "portrait": "assets/portraits/king.png",
+    "text": "You have given your first judgment, {{name}}. Whether history remembers it as wise or foolish... only time will tell.",
+    "next": "mission_2"
+},
+{
+    "id": "mission_2",
+    "speaker": "King Aldric",
+    "portrait": "assets/portraits/king.png",
+    "text": "A Hero is not measured by the monsters they slay, but by the burdens they choose to carry.",
+    "next": "mission_3"
+},
+{
+    "id": "mission_3",
+    "speaker": "Royal Advisor",
+    "portrait": "assets/portraits/advisor.png",
+    "text": "Your Majesty, scouts have returned from Ashwood Forest.",
+    "next": "mission_4"
+},
+{
+    "id": "mission_4",
+    "speaker": "Royal Advisor",
+    "portrait": "assets/portraits/advisor.png",
+    "text": "Several villages report attacks during the night. Livestock has gone missing, and a number of travelers have disappeared.",
+    "next": "mission_5"
+},
+{
+    "id": "mission_5",
+    "speaker": "King Aldric",
+    "portrait": "assets/portraits/king.png",
+    "text": "{{name}}, your first mission awaits. Travel to Ashwood and discover what threatens our people.",
+    "next": "mission_6"
+},
+{
+    "id": "mission_6",
+    "speaker": "Narrator",
+    "text": "For the first time, you leave the safety of the capital. The road ahead is long, and the kingdom watches with hope as its Hero begins the journey.",
+    "next": "road_1"
+},
+{
+    "id": "road_1",
+    "speaker": "Narrator",
+    "text": "The stone roads of the capital slowly give way to dirt paths winding through ancient forests."
 }
 ]
              
