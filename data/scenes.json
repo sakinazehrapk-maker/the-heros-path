@@ -484,6 +484,228 @@
             "next":"stealth_1"
         }
     ]
+},
+{
+    "id":"rescue_1",
+    "speaker":"Narrator",
+    "text":"You sprint through the forest, branches tearing at your cloak as the screams suddenly stop.",
+    "next":"rescue_2"
+},
+{
+    "id":"rescue_2",
+    "speaker":"Narrator",
+    "text":"The trees open into a small clearing bathed in pale moonlight.",
+    "next":"rescue_3"
+},
+{
+    "id":"rescue_3",
+    "speaker":"Narrator",
+    "text":"A lantern lies shattered on the ground. Its flame flickers weakly among the broken glass.",
+    "next":"rescue_4"
+},
+{
+    "id":"rescue_4",
+    "speaker":"Narrator",
+    "text":"The earth is torn apart. Deep claw marks carve through the soil as if something enormous had been dragged across it.",
+    "next":"rescue_5"
+},
+{
+    "id":"rescue_5",
+    "speaker":"Narrator",
+    "text":"No body. No attacker. Only silence.",
+    "next":"rescue_6"
+},
+{
+    "id":"rescue_6",
+    "speaker":"Narrator",
+    "text":"Then... you hear a weak cough behind a fallen tree.",
+    "next":"rescue_7"
+},
+{
+    "id":"rescue_7",
+    "speaker":"Hunter",
+    "portrait":"assets/portraits/hunter.png",
+    "text":"D-Don't... let it hear you...",
+    "next":"rescue_8"
+},
+{
+    "id":"rescue_8",
+    "speaker":"Hunter",
+    "portrait":"assets/portraits/hunter.png",
+    "text":"It's... still here.",
+    "next":"rescue_9"
+},
+{
+    "id":"rescue_9",
+    "speaker":"Narrator",
+    "text":"The hunter's trembling hand points deeper into the darkness beyond the clearing.",
+    "next":"rescue_choice"
+},
+{
+    "id":"rescue_choice",
+    "speaker":"Narrator",
+    "text":"The hunter can barely stand.",
+    "choices":[
+        {
+            "text":"Carry the hunter back to the village.",
+            "next":"save_hunter"
+        },
+        {
+            "text":"Leave the hunter and continue the pursuit.",
+            "next":"hunt_monster"
+        }
+    ]
+},
+{
+    "id":"hunt_monster",
+    "speaker":"Narrator",
+    "text":"You tighten your grip on your sword and leave the wounded hunter behind. Every instinct tells you the creature is close.",
+    "next":"hunt_2"
+},
+{
+    "id":"hunt_2",
+    "speaker":"Narrator",
+    "text":"The claw marks continue through the forest until they suddenly stop, as though whatever made them simply vanished.",
+    "next":"hunt_3"
+},
+{
+    "id":"hunt_3",
+    "speaker":"Narrator",
+    "text":"The air grows unnaturally cold. Even the wind refuses to move.",
+    "next":"hunt_4"
+},
+{
+    "id":"hunt_4",
+    "speaker":"Narrator",
+    "text":"...Crunch.",
+    "next":"hunt_5"
+},
+{
+    "id":"hunt_5",
+    "speaker":"Narrator",
+    "text":"A single footstep echoes behind you.",
+    "next":"hunt_6"
+},
+{
+    "id":"hunt_6",
+    "speaker":"Narrator",
+    "text":"You spin around instantly.",
+    "next":"hunt_7"
+},
+{
+    "id":"hunt_7",
+    "speaker":"Narrator",
+    "text":"Nothing.",
+    "next":"hunt_8"
+},
+{
+    "id":"hunt_8",
+    "speaker":"Narrator",
+    "text":"Then... two glowing eyes appear between the trees.",
+    "next":"hunt_9"
+},
+{
+    "id":"hunt_9",
+    "speaker":"Narrator",
+    "text":"They do not blink. They simply watch you.",
+    "next":"hunt_10"
+},
+{
+    "id":"hunt_10",
+    "speaker":"Narrator",
+    "text":"A deep growl rolls through the forest. Every survival instinct screams at you to move.",
+    "next":"hunt_choice"
+},
+{
+    "id":"hunt_choice",
+    "speaker":"Narrator",
+    "text":"The creature begins moving toward you.",
+    "choices":[
+        {
+            "text":"Stand your ground.",
+            "next":"fight_1"
+        },
+        {
+            "text":"Retreat toward the village.",
+            "next":"retreat_1"
+        }
+    ]
+},
+{
+    "id":"fight_1",
+    "speaker":"Narrator",
+    "text":"You draw your sword. The steel gleams faintly beneath the moonlight as the creature steps from the darkness."
+},
+{
+    "id":"fight_2",
+    "speaker":"Narrator",
+    "text":"For a brief moment... you believe you can win.",
+    "next":"fight_3"
+},
+{
+    "id":"fight_3",
+    "speaker":"Narrator",
+    "text":"Then it moves.",
+    "next":"fight_4"
+},
+{
+    "id":"fight_4",
+    "speaker":"Narrator",
+    "text":"You never even see the strike. A tremendous force throws you backward into a tree.",
+    "next":"fight_5"
+},
+{
+    "id":"fight_5",
+    "speaker":"Narrator",
+    "text":"Your sword slips from your hand and disappears into the darkness.",
+    "next":"fight_6"
+},
+{
+    "id":"fight_6",
+    "speaker":"Narrator",
+    "text":"Your vision blurs. Every breath burns with pain.",
+    "next":"fight_7"
+},
+{
+    "id":"fight_7",
+    "speaker":"Narrator",
+    "text":"The creature slowly approaches.",
+    "next":"fight_8"
+},
+{
+    "id":"fight_8",
+    "speaker":"Narrator",
+    "text":"Its enormous silhouette blocks the moonlight. Two glowing eyes stare directly into yours.",
+    "next":"fight_9"
+},
+{
+    "id":"fight_9",
+    "speaker":"Narrator",
+    "text":"It raises a massive claw..."
+},
+{
+    "id":"fight_10",
+    "speaker":"Narrator",
+    "text":"...but it doesn't strike.",
+    "next":"fight_11"
+},
+{
+    "id":"fight_11",
+    "speaker":"Narrator",
+    "text":"The creature tilts its head, studying you in complete silence.",
+    "next":"fight_12"
+},
+{
+    "id":"fight_12",
+    "speaker":"Narrator",
+    "text":"Then, without a sound, it turns away and disappears into the forest.",
+    "next":"fight_13"
+},
+{
+    "id":"fight_13",
+    "speaker":"Narrator",
+    "text":"You lie there alone, bruised and confused. If it wanted you dead... why did it spare you?",
+    "next":"chapter_end_1"
 }
 ]
-                  
+             
