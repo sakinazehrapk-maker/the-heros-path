@@ -865,6 +865,42 @@
     "speaker":"Narrator",
     "text":"Half buried beneath the fallen leaves lies an old journal.",
     "next":"journal_1"
+},
+{
+    "id":"journal_1",
+    "speaker":"Narrator",
+    "text":"The leather cover is cracked with age. Most of the pages have rotted away.",
+    "next":"journal_2"
+},
+{
+    "id":"journal_2",
+    "speaker":"Narrator",
+    "text":"Only a handful of entries remain readable.",
+    "next":"journal_3"
+},
+{
+    "id":"journal_3",
+    "speak":"Unknown Author",
+    "text":"If only they knew what truly lives beneath these woods...",
+    "next":"journal_4"
+},
+{
+    "id":"journal_5",
+    "speaker":"Unknown Author",
+    "text":"If anyone finds this journal... do not trust the stories told by the capital.",
+    "next":"journal_6"
+},
+{
+    "id":"journal_6",
+    "speaker":"Narrator",
+    "text":"The remaining pages have been torn out.",
+    "next":"journal_7"
+},
+{
+    "id":"journal_7",
+    "speaker":"Narrator",
+    "text":"Before you can search further, you hear footsteps approaching through the trees.",
+    "next":"stranger_1"
 }
 ]
                     
