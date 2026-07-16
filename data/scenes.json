@@ -705,7 +705,7 @@
     "id":"fight_13",
     "speaker":"Narrator",
     "text":"You lie there alone, bruised and confused. If it wanted you dead... why did it spare you?",
-    "next":"chapter_end_1"
+    "next":"shrine_1"
 },
 {
     "id":"village_night_1",
@@ -797,7 +797,74 @@
 {
     "id":"chapter3_end",
     "speaker":"Narrator",
-    "text":"You stand and look toward the dark forest. The mystery has only deepened."
+    "text":"You stand and look toward the dark forest. The mystery has only deepened.",
+    "next":"shrine_1"
+},
+{
+    "id":"shrine_1",
+    "speaker":"Narrator",
+    "text":"Following the trail, you leave the village behind. The trees grow older, their twisted branches blocking out the morning light.",
+    "next":"shrine_2"
+},
+{
+    "id":"shrine_2",
+    "speaker":"Narrator",
+    "text":"After nearly an hour of walking, the forest suddenly opens into a forgotten clearing.",
+    "next":"shrine_3"
+},
+{
+    "id":"shrine_3",
+    "speaker":"Narrator",
+    "text":"Ancient stone pillars stand broken and covered in vines. Moss blankets the cracked floor beneath your feet.",
+    "next":"shrine_4"
+},
+{
+    "id":"shrine_4",
+    "speaker":"Narrator",
+    "text":"At the center rests a weathered shrine. Time has nearly erased every carving upon it.",
+    "next":"shrine_5"
+},
+{
+    "id":"shrine_5",
+    "speaker":"Narrator",
+    "text":"Someone has been here recently.",
+    "next":"shrine_6"
+},
+{
+    "id":"shrine_6",
+    "speaker":"Narrator",
+    "text":"Fresh footprints circle the shrine, yet there is no sign of whoever left them.",
+    "next":"shrine_7"
+},
+{
+    "id":"shrine_7",
+    "speaker":"Narrator",
+    "text":"Your eyes fall upon strange claw marks carved deep into the stone itself.",
+    "next":"shrine_8"
+},
+{
+    "id":"shrine_8",
+    "speaker":"Narrator",
+    "text":"They are far older than the recent attacks.",
+    "next":"shrine_9"
+},
+{
+    "id":"shrine_9",
+    "speaker":"Narrator",
+    "text":"This place has known the creature for a very long time.",
+    "next":"shrine_10"
+},
+{
+    "id":"shrine_10",
+    "speaker":"Narrator",
+    "text":"A cold breeze passes through the clearing. Something catches your attention near the base of the shrine.",
+    "next":"shrine_11"
+},
+{
+    "id":"shrine_11",
+    "speaker":"Narrator",
+    "text":"Half buried beneath the fallen leaves lies an old journal.",
+    "next":"journal_1"
 }
 ]
-              
+                    
