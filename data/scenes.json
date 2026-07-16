@@ -901,6 +901,170 @@
     "speaker":"Narrator",
     "text":"Before you can search further, you hear footsteps approaching through the trees.",
     "next":"stranger_1"
+},
+{
+    "id":"stranger_1",
+    "speaker":"???",
+    "text":"You shouldn't be reading that.",
+    "next":"stranger_2"
+},
+{
+    "id":"stranger_2",
+    "speaker":"Narrator",
+    "text":"You turn toward the voice. A hooded figure stands at the edge of the clearing, their face hidden beneath a dark cloak.",
+    "next":"stanger_3"
+},
+{
+    "id":"stranger_3",
+    "speaker":"???",
+    "text":"Put the journal down.",
+    "next":"stranger_4"
+},
+{
+    "id":"stranger_4",
+    "speaker":"Hero",
+    "text":"Who are you?",
+    "next":"stranger_5"
+},
+{
+    "id":"stranger_5",
+    "speaker":"???",
+    "text":"Someone who survived.",
+    "next":"stranger_6"
+},
+{
+    "id":"stranger_6",
+    "speaker":"Hero",
+    "text":"Do you know what's attacking the village?",
+    "next":"stranger_7"
+},
+{
+    "id":"stranger_7",
+    "speaker":"???",
+    "text":"I know what the kingdom wants you to believe.",
+    "next":"stranger_8"
+},
+{
+    "id":"stranger_8",
+    "speaker":"Hero",
+    "text":"Answer the question.",
+    "next":"stranger_9"
+},
+{
+    "id":"stranger_9",
+    "speaker":"???",
+    "text":"You're asking the wrong question.",
+    "next":"stranger_10"
+},
+{
+    "id":"stranger_10",
+    "speaker":"???",
+    "text":"Instead of asking what is killing these people...",
+    "next":"stranger_11"
+},
+{
+    "id":"stranger_11",
+    "speaker":"???",
+    "text":"...ask why.",
+    "next":"stranger_12"
+},
+{
+    "id":"stranger_12",
+    "speaker":"Narrator",
+    "text":"The forest falls silent once again.",
+    "next":"stranger_13"
+},
+{
+    "id":"stranger_13",
+    "speaker":"???",
+    "text":"Tell me, Hero...",
+    "next":"stranger_14"
+},
+{
+    "id":"stranger_14",
+    "speaker":"???",
+    "text":"Has anyone ever asked whether the creature is hunting...",
+    "next":"stranger_15"
+},
+{
+    "id":"stranger_15",
+    "speaker":"???",
+    "text":"...or hiding?",
+    "next":"stranger_choice"
+},
+{
+    "id":"stranger_choice",
+    "speaker":"Narrator",
+    "text":"How do you respond?",
+    "choices":[
+        {
+            "text":"'You're lying.'",
+            "next":"doubt_1"
+        },
+        {
+            "text":"'Explain what you mean.'",
+            "next":"curious_1"
+        }
+    ]
+},
+{
+    "id":"doubt_1",
+    "speaker":"Hero",
+    "text":"You're trying to distract me from my mission.",
+    "next":"doubt_2"
+},
+{
+    "id":"doubt_2",
+    "speaker":"???",
+    "text":"Perhaps.",
+    "next":"doubt_3"
+},
+{
+    "id":"doubt_3",
+    "speaker":"???",
+    "text":"Or perhaps you're already doing exactly what someone wanted.",
+    "next":"escape_1"
+},
+{
+    "id":"curious_1",
+    "speaker":"Hero",
+    "text":"Then explain.",
+    "next":"curious_2"
+},
+{
+    "id":"curious_2",
+    "speaker":"???",
+    "text":"Not yet.",
+    "next":"curious_3"
+},
+{
+    "id":"curious_3",
+    "speaker":"???",
+    "text":"You still trust the wrong people.",
+    "next":"escape_1"
+},
+{
+    "id":"escape_1",
+    "speaker":"Narrator",
+    "text":"A sudden gust of wind sweeps through the clearing. Leaves swirl around you, forcing you to shield your eyes.",
+    "next":"escape_2"
+},
+{
+    "id":"escape_2",
+    "speaker":"Narrator",
+    "text":"When the wind settles... the hooded stranger is gone.",
+    "next":"escape_3"
+},
+{
+    "id":"escape_3",
+    "speaker":"Narrator",
+    "text":"Only the journal remains at your feet.",
+    "next":"escape_4"
+},
+{
+    "id":"escape_4",
+    "speaker":"Narrator",
+    "text":"For the first time since leaving the capital... you begin to question whether you've been told the whole truth."
 }
 ]
-                    
+                 
