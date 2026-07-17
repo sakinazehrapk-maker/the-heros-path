@@ -1541,6 +1541,144 @@
             "next":"why_attack"
         }
     ]
+},
+{
+    "id":"who_are_they",
+    "speaker":"Hero",
+    "text":"Who attacked this fortress?",
+    "next":"captain_1"
+},
+{
+    "id":"captain_1",
+    "speaker":"Captain",
+    "text":"They call themselves... the Ashen Order.",
+    "next":"captain_common"
+},
+{
+    "id":"why_attack",
+    "speaker":"Hero",
+    "text":"Why would anyone fight beside that creature?",
+    "next":"captain_2"
+},
+{
+    "id":"captain_2",
+    "speaker":"Captain",
+    "text":"Because they believe the kingdom is the real monster.",
+    "next":"captain_common"
+},
+{
+    "id":"captain_common",
+    "speaker":"Captain",
+    "text":"I thought they were mad... until I heard what they were saying.",
+    "next":"captain_common2"
+},
+{
+    "id":"captain_common2",
+    "speaker":"Captain",
+    "text":"They didn't come to conquer the fortress.",
+    "next":"captain_common3"
+},
+{
+    "id":"captain_common3",
+    "speaker":"Captain",
+    "text":"They came looking for something.",
+    "next":"captain_common4"
+},
+{
+    "id":"captain_common4",
+    "speaker":"Hero",
+    "text":"Looking for what?",
+    "next":"captain_common5"
+},
+{
+    "id":"captain_common5",
+    "speaker":"Captain",
+    "text":"An old relic.",
+    "next":"captain_common6"
+},
+{
+    "id":"captain_common6",
+    "speaker":"Captain",
+    "text":"Something hidden beneath this fortress.",
+    "next":"captain_common7"
+},
+{
+    "id":"captain_common7",
+    "speaker":"Narrator",
+    "text":"The captain suddenly stops speaking.",
+    "next":"captain_common8"
+},
+{
+    "id":"captain_common8",
+    "speaker":"Hero",
+    "text":"Captain?",
+    "next":"captain_common9"
+},
+{
+    "id":"captain_common9",
+    "speaker":"Narrator",
+    "text":"His eyes widen in terror as he stares past you.",
+    "next":"captain_common10"
+},
+{
+    "id":"captain_common10",
+    "speaker":"Narrator",
+    "text":"A blade suddenly bursts through the captain's chest.",
+    "next":"assassin_1"
+},
+{
+    "id":"assassin_1",
+    "speaker":"Narrator",
+    "text":"The captain collapses without another word.",
+    "next":"assassin_2"
+},
+{
+    "id":"assassin_2",
+    "speaker":"???",
+    "text":"He was going to say too much.",
+    "next":"assassin_3"
+},
+{
+    "id":"assassin_3",
+    "speaker":"Narrator",
+    "text":"A masked figure stands in the doorway, calmly pulling their blade free.",
+    "next":"assassin_4"
+},
+{
+    "id":"assassin_4",
+    "speaker":"Masked Assassin",
+    "text":"Hero...",
+    "next":"assassin_5"
+},
+{
+    "id":"assassin_5",
+    "speaker":"Masked Assassin",
+    "text":"I've been waiting for you.",
+    "next":"assassin_6"
+},
+{
+    "id":"assassin_6",
+    "speaker":"Hero",
+    "text":"Who are you?",
+    "next":"assassin_7"
+},
+{
+    "id":"assassin_7",
+    "speaker":"Masked Assassin",
+    "text":"Someone who knows how your story ends.",
+    "next":"assassin_8"
+},
+{
+    "id":"assassin_8",
+    "speaker":"Masked Assassin",
+    "text":"And trust me...",
+    "next":"assassin_9"
+},
+{
+    "id":"assassin_9",
+    "speaker":"Masked Assassin",
+    "text":"You won't like the person you become.",
+    "next":"boss_intro"
 }
 ]
- 
+        
