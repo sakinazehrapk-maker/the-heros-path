@@ -1289,6 +1289,258 @@
     "speaker":"Narrator",
     "text":"You look back at Ashwood one last time. The mystery remains unsolved, but your journey is only beginning.",
     "next":"chapter7_intro"
+},
+{
+    "id":"chapter7_intro",
+    "speaker":"Narrator",
+    "text":"Three days later, the towers of the capital rise once more on the horizon.",
+    "next":"chapter7_2"
+},
+{
+    "id":"chapter7_2",
+    "speaker":"Narrator",
+    "text":"News of the attacks has spread across the kingdom. Fear now reaches even the royal walls.",
+    "next":"chapter7_3"
+},
+{
+    "id":"chapter7_3",
+    "speaker":"Royal Advisor",
+    "text":"The King has been expecting you.",
+    "next":"chapter7_4"
+},
+{
+    "id":"chapter7_4",
+    "speaker":"Narrator",
+    "text":"You enter the council chamber. Maps cover the table, marked with black ink where villages have fallen silent.",
+    "next":"chapter7_5"
+},
+{
+    "id":"chapter7_5",
+    "speaker":"King",
+    "text":"Ashwood... Briar Hollow... Eastwatch.",
+    "next":"chapter7_6"
+},
+{
+    "id":"chapter7_6",
+    "speaker":"King",
+    "text":"Three villages attacked within a single month.",
+    "next":"chapter7_7"
+},
+{
+    "id":"chapter7_7",
+    "speaker":"King",
+    "text":"Whatever stalks this kingdom is growing bolder.",
+    "next":"chapter7_8"
+},
+{
+    "id":"chapter7_8",
+    "speaker":"Royal General",
+    "text":"Then we march. Burn every forest if we must.",
+    "next":"chapter7_9"
+},
+{
+    "id":"chapter7_9",
+    "speaker":"Royal Scholar",
+    "text":"Or perhaps we should understand our enemy before we destroy half the kingdom.",
+    "next":"chapter7_10"
+},
+{
+    "id":"chapter7_10",
+    "speaker":"Narrator",
+    "text":"The council erupts into argument. Every voice speaks over another.",
+    "next":"chapter7_11"
+},
+{
+    "id":"chapter7_11",
+    "speaker":"King",
+    "text":"Enough.",
+    "next":"chapter7_12"
+},
+{
+    "id":"chapter7_12",
+    "speaker":"King",
+    "text":"Hero... what do you recommend?",
+    "next":"council_choice"
+},
+{
+    "id":"council_choice",
+    "speaker":"Narrator",
+    "text":"The entire council turns toward you.",
+    "choices":[
+        {
+            "text":"Launch a military campaign.",
+            "next":"war_plan"
+        },
+        {
+            "text":"Investigate before attacking.",
+            "next":"investigation_plan"
+        }
+    ]
+},
+{
+    "id":"war_plan",
+    "speaker":"Hero",
+    "text":"If these attacks continue, more lives will be lost. We cannot wait.",
+    "next":"war_plan_2"
+},
+{
+    "id":"war_plan_2",
+    "speaker":"Royal General",
+    "text":"Finally. Someone with courage.",
+    "next":"chapter8_intro"
+},
+{
+    "id":"investigation_plan",
+    "speaker":"Hero",
+    "text":"We're missing too many answers. Charging into war without understanding the enemy could make things worse.",
+    "next":"investigation_plan_2"
+},
+{
+    "id":"investigation_plan_2",
+    "speaker":"Royal Scholar",
+    "text":"Wisdom before violence. An uncommon quality.",
+    "next":"chapter8_intro"
+},
+{
+    "id":"chapter8_intro",
+    "speaker":"Narrator",
+    "text":"Two days later, you arrive at Blackstone Fortress.",
+    "next":"chapter8_2"
+},
+{
+    "id":"chapter8_2",
+    "speaker":"Narrator",
+    "text":"The gates stand open. No guards challenge your arrival.",
+    "next":"chapter8_3"
+},
+{
+    "id":"chapter8_3",
+    "speaker":"Hero",
+    "text":"Where is everyone?",
+    "next":"chapter8_4"
+},
+{
+    "id":"chapter8_4",
+    "speaker":"Narrator",
+    "text":"The courtyard is deserted. Weapons, shields, and supplies lie abandoned where they were dropped.",
+    "next":"chapter8_5"
+},
+{
+    "id":"chapter8_5",
+    "speaker":"Narrator",
+    "text":"There are signs of panic... but almost no signs of battle.",
+    "next":"chapter8_6"
+},
+{
+    "id":"chapter8_6",
+    "speaker":"Narrator",
+    "text":"The silence is overwhelming.",
+    "next":"chapter8_7"
+},
+{
+    "id":"chapter8_7",
+    "speaker":"Narrator",
+    "text":"Then you hear it...",
+    "next":"chapter8_8"
+},
+{
+    "id":"chapter8_8",
+    "speaker":"Narrator",
+    "text":"A faint cough echoes somewhere inside the fortress.",
+    "next":"chapter8_9"
+},
+{
+    "id":"chapter8_9",
+    "speaker":"Narrator",
+    "text":"Someone is still alive.",
+    "next":"survivor_1"
+},
+{
+    "id":"survivor_1",
+    "speaker":"Captain",
+    "text":"...Hero?",
+    "next":"survivor_2"
+},
+{
+    "id":"survivor_2",
+    "speaker":"Narrator",
+    "text":"An injured captain leans against the wall, barely conscious.",
+    "next":"survivor_3"
+},
+{
+    "id":"survivor_3",
+    "speaker":"Hero",
+    "text":"What happened here?",
+    "next":"survivor_4"
+},
+{
+    "id":"survivor_4",
+    "speaker":"Captain",
+    "text":"It wasn't one creature...",
+    "next":"survivor_5"
+},
+{
+    "id":"survivor_5",
+    "speaker":"Captain",
+    "text":"There were dozens...",
+    "next":"survivor_6"
+},
+{
+    "id":"survivor_6",
+    "speaker":"Hero",
+    "text":"Dozens?",
+    "next":"survivor_7"
+},
+{
+    "id":"survivor_7",
+    "speaker":"Captain",
+    "text":"No...",
+    "next":"survivor_8"
+},
+{
+    "id":"survivor_8",
+    "speaker":"Captain",
+    "text":"Not creatures...",
+    "next":"survivor_9"
+},
+{
+    "id":"survivor_9",
+    "speaker":"Captain",
+    "text":"People.",
+    "next":"survivor_10"
+},
+{
+    "id":"survivor_10",
+    "speaker":"Narrator",
+    "text":"Your heart sinks.",
+    "next":"survivor_11"
+},
+{
+    "id":"survivor_11",
+    "speaker":"Captain",
+    "text":"They fought beside the creature...",
+    "next":"survivor_12"
+},
+{
+    "id":"survivor_12",
+    "speaker":"Captain",
+    "text":"...not against it.",
+    "next":"chapter8_choice"
+},
+{
+    "id":"chapter8_choice",
+    "speaker":"Narrator",
+    "text":"The captain grips your arm with surprising strength.",
+    "choices":[
+        {
+            "text":"Ask who attacked.",
+            "next":"who_are_they"
+        },
+        {
+            "text":"Ask why they attacked.",
+            "next":"why_attack"
+        }
+    ]
 }
 ]
-                                                           
+ 
