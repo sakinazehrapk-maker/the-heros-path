@@ -1065,6 +1065,230 @@
     "id":"escape_4",
     "speaker":"Narrator",
     "text":"For the first time since leaving the capital... you begin to question whether you've been told the whole truth."
+},
+{
+    "id":"return_1",
+    "speaker":"Narrator",
+    "text":"You make your way back toward Ashwood, the stranger's words echoing in your mind.",
+    "next":"return_2"
+},
+{
+    "id":"return_2",
+    "speaker":"Narrator",
+    "text":"Smoke rises from the village square. Dozens of villagers have gathered, carrying torches and weapons.",
+    "next":"return_3"
+},
+{
+    "id":"return_3",
+    "speaker":"Village Elder",
+    "text":"You're back.",
+    "next":"return_4"
+},
+{
+    "id":"return_4",
+    "speaker":"Village Elder",
+    "text":"We can't wait any longer.",
+    "next":"return_5"
+},
+{
+    "id":"return_5",
+    "speaker":"Village Elder",
+    "text":"Tonight... we end this.",
+    "next":"return_6"
+},
+{
+    "id":"return_6",
+    "speaker":"Narrator",
+    "text":"The villagers cheer, though the sound is filled more with fear than courage.",
+    "next":"return_7"
+},
+{
+    "id":"return_7",
+    "speaker":"Hero",
+    "text":"You're going into the forest?",
+    "next":"return_8"
+},
+{
+    "id":"return_8",
+    "speaker":"Village Elder",
+    "text":"No.",
+    "next":"return_9"
+},
+{
+    "id":"return_9",
+    "speaker":"Village Elder",
+    "text":"We're going to burn it."
+},
+{
+    "id":"burn_1",
+    "speaker":"Narrator",
+    "text":"Several villagers begin stacking barrels of oil onto wooden carts.",
+    "next":"burn_2"
+},
+{
+    "id":"burn_2",
+    "speaker":"Village Child",
+    "text":"If we burn the forest...",
+    "next":"burn_3"
+},
+{
+    "id":"burn_3",
+    "speaker":"Village Child",
+    "text":"...will the monster die?",
+    "next":"burn_4"
+},
+{
+    "id":"burn_4",
+    "speaker":"Narrator",
+    "text":"Nobody answers.",
+    "next":"burn_5"
+},
+{
+    "id":"burn_5",
+    "speaker":"Narrator",
+    "text":"You look toward the forest. Thousands of ancient trees stretch beyond the village.",
+    "next":"burn_choice"
+},
+{
+    "id":"burn_choice",
+    "speaker":"Narrator",
+    "text":"The villagers wait for your command.",
+    "choices":[
+        {
+            "text":"Approve burning the forest.",
+            "next":"burn_yes"
+        },
+        {
+            "text":"Stop them.",
+            "next":"burn_no"
+        }
+    ]
+},
+{
+    "id":"burn_yes",
+    "speaker":"Hero",
+    "text":"Do it. If the creature is hiding in the forest, we end this tonight.",
+    "next":"burn_yes_2"
+},
+{
+    "id":"burn_yes_2",
+    "speaker":"Narrator",
+    "text":"Torches are thrown into the trees. Dry branches catch almost instantly.",
+    "next":"burn_yes_3"
+},
+{
+    "id":"burn_yes_3",
+    "speaker":"Narrator",
+    "text":"Within minutes, flames race through the forest. The night sky glows orange.",
+    "next":"burn_yes_4"
+},
+{
+    "id":"burn_yes_4",
+    "speaker":"Narrator",
+    "text":"Animals flee in every direction. Deer, wolves, rabbits, and birds all run from the inferno.",
+    "next":"burn_yes_5"
+},
+{
+    "id":"burn_yes_5",
+    "speaker":"Village Elder",
+    "text":"It's working! Keep the fire going!",
+    "next":"burn_yes_6"
+},
+{
+    "id":"burn_yes_6",
+    "speaker":"Narrator",
+    "text":"Then... a deafening roar echoes from deep within the flames.",
+    "next":"burn_yes_7"
+},
+{
+    "id":"burn_yes_7",
+    "speaker":"Narrator",
+    "text":"Every villager falls silent.",
+    "next":"merge_1"
+},
+{
+    "id":"burn_no",
+    "speaker":"Hero",
+    "text":"No. We don't destroy an entire forest without knowing the truth.",
+    "next":"burn_no_2"
+},
+{
+    "id":"burn_no_2",
+    "speaker":"Village Elder",
+    "text":"Then what do you suggest?",
+    "next":"burn_no_3"
+},
+{
+    "id":"burn_no_3",
+    "speaker":"Hero",
+    "text":"We find the creature... not destroy everything around it.",
+    "next":"burn_no_4"
+},
+{
+    "id":"burn_no_4",
+    "speaker":"Narrator",
+    "text":"Some villagers lower their torches. Others look at you with anger.",
+    "next":"burn_no_5"
+},
+{
+    "id":"burn_no_5",
+    "speaker":"Village Elder",
+    "text":"If more people die... their blood will be on your hands.",
+    "next":"burn_no_6"
+},
+{
+    "id":"burn_no_6",
+    "speaker":"Narrator",
+    "text":"No one cheers. No one thanks you. The crowd slowly disperses in uneasy silence.",
+    "next":"merge_1"
+},
+{
+    "id":"merge_1",
+    "speaker":"Narrator",
+    "text":"That night, sleep never comes. The village waits... uncertain of what tomorrow will bring.",
+    "next":"merge_2"
+},
+{
+    "id":"merge_2",
+    "speaker":"Narrator",
+    "text":"Just before dawn, a lone rider arrives from the capital.",
+    "next":"merge_3"
+},
+{
+    "id":"merge_3",
+    "speaker":"Royal Messenger",
+    "text":"Hero! I bring orders directly from the King.",
+    "next":"merge_4"
+},
+{
+    "id":"merge_4",
+    "speaker":"Royal Messenger",
+    "text":"You are to leave Ashwood immediately.",
+    "next":"merge_5"
+},
+{
+    "id":"merge_5",
+    "speaker":"Hero",
+    "text":"Leave? The attacks aren't over.",
+    "next":"merge_6"
+},
+{
+    "id":"merge_6",
+    "speaker":"Royal Messenger",
+    "text":"Another village has fallen.",
+    "next":"merge_7"
+},
+{
+    "id":"merge_7",
+    "speaker":"Royal Messenger",
+    "text":"The King believes these attacks are spreading.",
+    "next":"merge_8"
+},
+{
+    "id":"merge_8",
+    "speaker":"Narrator",
+    "text":"You look back at Ashwood one last time. The mystery remains unsolved, but your journey is only beginning.",
+    "next":"chapter7_intro"
 }
 ]
-                 
+                                                           
