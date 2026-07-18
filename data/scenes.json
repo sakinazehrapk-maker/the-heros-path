@@ -1777,5 +1777,125 @@
     "speaker":"Narrator",
     "text":"The assassin falls silent. In their hand is a sealed letter addressed not to them... but to you.",
     "next":"chapter11_intro"
+},
+{
+    "id":"chapter11_intro",
+    "speaker":"Narrator",
+    "text":"The fortress grows silent once more. Your eyes fall upon the sealed letter.",
+    "next":"letter_1"
+},
+{
+    "id":"letter_1",
+    "speaker":"Hero",
+    "text":"...My name?",
+    "next":"letter_2"
+},
+{
+    "id":"letter_2",
+    "speaker":"Narrator",
+    "text":"Your name is written across the front in elegant handwriting.",
+    "next":"letter_3"
+},
+{
+    "id":"letter_3",
+    "speaker":"Narrator",
+    "text":"The seal bears no royal crest. Instead, it shows a symbol you've never seen before—a circle split by a single vertical line.",
+    "next":"letter_4"
+},
+{
+    "id":"letter_4",
+    "speaker":"Narrator",
+    "text":"You carefully break the seal.",
+    "next":"letter_5"
+},
+{
+    "id":"letter_5",
+    "speaker":"Unknown Writer",
+    "text":"If this letter has reached you... then history is repeating itself.",
+    "next":"letter_6"
+},
+{
+    "id":"letter_6",
+    "speaker":"Unknown Writer",
+    "text":"You believe you were chosen to save the kingdom.",
+    "next":"letter_7"
+},
+{
+    "id":"letter_7",
+    "speaker":"Unknown Writer",
+    "text":"So did every Hero before you.",
+    "next":"letter_8"
+},
+{
+    "id":"letter_8",
+    "speaker":"Hero",
+    "text":"...Every Hero?",
+    "next":"letter_9"
+},
+{
+    "id":"letter_9",
+    "speaker":"Unknown Writer",
+    "text":"There has never been only one Hero.",
+    "next":"letter_10"
+},
+{
+    "id":"letter_10",
+    "speaker":"Unknown Writer",
+    "text":"There has been one every generation.",
+    "next":"letter_11"
+},
+{
+    "id":"letter_11",
+    "speaker":"Unknown Writer",
+    "text":"And every one of them disappeared.",
+    "next":"letter_12"
+},
+{
+    "id":"letter_12",
+    "speaker":"Narrator",
+    "text":"Your hands tighten around the letter.",
+    "next":"letter_13"
+},
+{
+    "id":"letter_13",
+    "speaker":"Unknown Writer",
+    "text":"Ask yourself one question...",
+    "next":"letter_14"
+},
+{
+    "id":"letter_14",
+    "speaker":"Unknown Writer",
+    "text":"If every Hero saved the kingdom...",
+    "next":"letter_15"
+},
+{
+    "id":"letter_15",
+    "speaker":"Unknown Writer",
+    "text":"...why does the kingdom always need another Hero?"
+},
+{
+    "id":"letter_16",
+    "speaker":"Narrator",
+    "text":"Before you can finish reading, footsteps echo through the fortress.",
+    "next":"letter_17"
+},
+{
+    "id":"letter_17",
+    "speaker":"Royal Soldier",
+    "text":"Hero! We've been looking everywhere for you!",
+    "next":"letter_18"
+},
+{
+    "id":"letter_18",
+    "speaker":"Royal Soldier",
+    "text":"The King requests your immediate return.",
+    "next":"letter_19"
+},
+{
+    "id":"letter_19",
+    "speaker":"Narrator",
+    "text":"You quietly fold the letter and slip it inside your cloak.",
+    "next":"chapter12_intro"
 }
 ]
+                                              
