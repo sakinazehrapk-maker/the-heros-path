@@ -1679,6 +1679,103 @@
     "speaker":"Masked Assassin",
     "text":"You won't like the person you become.",
     "next":"boss_intro"
+},
+{
+    "id":"boss_intro",
+    "speaker":"Narrator",
+    "text":"The masked assassin slowly draws a curved blade. They don't rush toward you. They simply wait.",
+    "next":"boss_2"
+},
+{
+    "id":"boss_2",
+    "speaker":"Masked Assassin",
+    "text":"Before we cross blades... answer me one question.",
+    "next":"boss_3"
+},
+{
+    "id":"boss_3",
+    "speaker":"Masked Assassin",
+    "text":"Do you know why the King chose you?",
+    "next":"boss_4"
+},
+{
+    "id":"boss_4",
+    "speaker":"Hero",
+    "text":"Because I'm the Hero.",
+    "next":"boss_5"
+},
+{
+    "id":"boss_5",
+    "speaker":"Masked Assassin",
+    "text":"...Is that what they told you?",
+    "next":"boss_6"
+},
+{
+    "id":"boss_6",
+    "speaker":"Narrator",
+    "text":"Without another word, the assassin attacks."
+},
+{
+    "id":"boss_7",
+    "speaker":"Narrator",
+    "text":"Steel clashes in the silent fortress. Sparks scatter across the stone floor.",
+    "next":"boss_8"
+},
+{
+    "id":"boss_8",
+    "speaker":"Narrator",
+    "text":"After a fierce exchange, you knock the assassin's weapon from their hand.",
+    "next":"boss_choice"
+},
+{
+    "id":"boss_choice",
+    "speaker":"Narrator",
+    "text":"The assassin is defeated and cannot fight back.",
+    "choices":[
+        {
+            "text":"Spare them.",
+            "next":"spare_1"
+        },
+        {
+            "text":"Execute them.",
+            "next":"execute_1"
+        }
+    ]
+},
+{
+    "id":"spare_1",
+    "speaker":"Hero",
+    "text":"I'm done killing people who can't defend themselves.",
+    "next":"spare_2"
+},
+{
+    "id":"spare_2",
+    "speaker":"Masked Assassin",
+    "text":"...Then you're already different from the ones who came before you.",
+    "next":"spare_3"
+},
+{
+    "id":"spare_3",
+    "speaker":"Narrator",
+    "text":"The assassin smiles faintly before disappearing into the shadows of the ruined fortress.",
+    "next":"chapter11_intro"
+},
+{
+    "id":"execute_1",
+    "speaker":"Narrator",
+    "text":"Your blade falls.",
+    "next":"execute_2"
+},
+{
+    "id":"execute_2",
+    "speaker":"Masked Assassin",
+    "text":"So... it begins...",
+    "next":"execute_3"
+},
+{
+    "id":"execute_3",
+    "speaker":"Narrator",
+    "text":"The assassin falls silent. In their hand is a sealed letter addressed not to them... but to you.",
+    "next":"chapter11_intro"
 }
 ]
-        
