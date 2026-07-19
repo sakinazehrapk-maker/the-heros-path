@@ -2513,7 +2513,132 @@
 {
     "id":"merge16_17",
     "speaker":"Forgotten Hero",
-    "text":"Then who writes the prophecy?"
+    "text":"Then who writes the prophecy?",
+    "next":"chapter17_intro"
+},
+{
+    "id":"chapter17_intro",
+    "speaker":"Narrator",
+    "text":"By the time you reach Dawnfall, the city is already under siege.",
+    "next":"dawnfall_1"
+},
+{
+    "id":"dawnfall_1",
+    "speaker":"Narrator",
+    "text":"Smoke rises above the walls. Bells echo through every street.",
+    "next":"dawnfall_2"
+},
+{
+    "id":"dawnfall_2",
+    "speaker":"Royal Soldier",
+    "text":"Hero! The Ashen Order has breached the eastern gate!",
+    "next":"dawnfall_3"
+},
+{
+    "id":"dawnfall_3",
+    "speaker":"Hero",
+    "text":"How many attackers?",
+    "next":"dawnfall_4"
+},
+{
+    "id":"dawnfall_4",
+    "speaker":"Royal Soldier",
+    "text":"Enough.",
+    "next":"dawnfall_5"
+},
+{
+    "id":"dawnfall_5",
+    "speaker":"Narrator",
+    "text":"The city you swore to protect is falling apart before your eyes.",
+    "next":"dawnfall_6"
+},
+{
+    "id":"dawnfall_6",
+    "speaker":"Narrator",
+    "text":"You have only moments to act.",
+    "next":"siege_choice"
+},
+{
+    "id":"siege_choice",
+    "speaker":"Narrator",
+    "text":"You cannot be everywhere at once.",
+    "choices":[
+        {
+            "text":"Protect the civilians.",
+            "next":"civilian_path"
+        },
+        {
+            "text":"Protect the palace.",
+            "next":"palace_path"
+        }
+    ]
+},
+{
+    "id":"civilian_path",
+    "speaker":"Narrator",
+    "text":"You lead families through burning streets toward the western gate.",
+    "next":"civilian_2"
+},
+{
+    "id":"civilian_2",
+    "speaker":"Narrator",
+    "text":"Hundreds survive because of your actions.",
+    "next":"civilian_3"
+},
+{
+    "id":"civilian_3",
+    "speaker":"Royal Soldier",
+    "text":"Hero... the palace has fallen.",
+    "next":"merge17"
+},
+{
+    "id":"palace_path",
+    "speaker":"Narrator",
+    "text":"You rally the royal guard and hold the palace gates.",
+    "next":"palace_2"
+},
+{
+    "id":"palace_2",
+    "speaker":"Narrator",
+    "text":"The royal family survives.",
+    "next":"palace_3"
+},
+{
+    "id":"palace_3",
+    "speaker":"Royal Soldier",
+    "text":"Hero... thousands of civilians were trapped inside the city.",
+    "next":"merge17"
+},
+{
+    "id":"merge17",
+    "speaker":"Narrator",
+    "text":"Victory doesn't feel like victory.",
+    "next":"merge17_2"
+},
+{
+    "id":"merge17_2",
+    "speaker":"Narrator",
+    "text":"No matter what you chose, someone paid the price.",
+    "next":"merge17_3"
+},
+{
+    "id":"merge17_3",
+    "speaker":"Hero",
+    "text":"There had to be another way...",
+    "next":"merge17_4"
+},
+{
+    "id":"merge17_4",
+    "speaker":"Narrator",
+    "text":"As dawn breaks, a messenger arrives with devastating news.",
+    "next":"merge17_5"
+},
+{
+    "id":"merge17_5",
+    "speaker":"Messenger",
+    "text":"The King requests your presence... immediately.",
+    "next":"chapter18_intro"
 }
 ]
-   
+        
+                       
