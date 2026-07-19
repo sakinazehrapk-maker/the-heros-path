@@ -2256,5 +2256,264 @@
     "speaker":"???",
     "text":"You're reading the wrong version.",
     "next":"chapter15_intro"
+},
+{
+    "id":"chapter15_intro",
+    "speaker":"Narrator",
+    "text":"A hooded figure steps from the shadows between the ancient pillars.",
+    "next":"forgotten_1"
+},
+{
+    "id":"forgotten_1",
+    "speaker":"???",
+    "text":"I wondered how long it would take before someone found this place.",
+    "next":"forgotten_2"
+},
+{
+    "id":"forgotten_2",
+    "speaker":"Hero",
+    "text":"Who are you?",
+    "next":"forgotten_3"
+},
+{
+    "id":"forgotten_3",
+    "speaker":"???",
+    "text":"Someone the kingdom erased.",
+    "next":"forgotten_4"
+},
+{
+    "id":"forgotten_4",
+    "speaker":"Narrator",
+    "text":"The stranger lowers their hood.",
+    "next":"forgotten_5"
+},
+{
+    "id":"forgotten_5",
+    "speaker":"Narrator",
+    "text":"Their face is scarred, but their eyes carry a familiar determination.",
+    "next":"forgotten_6"
+},
+{
+    "id":"forgotten_6",
+    "speaker":"Forgotten Hero",
+    "text":"I was the Hero... before you.",
+    "next":"forgotten_7"
+},
+{
+    "id":"forgotten_7",
+    "speaker":"Hero",
+    "text":"That's impossible.",
+    "next":"forgotten_8"
+},
+{
+    "id":"forgotten_8",
+    "speaker":"Forgotten Hero",
+    "text":"That's exactly what they wanted you to believe.",
+    "next":"forgotten_9"
+},
+{
+    "id":"forgotten_9",
+    "speaker":"Forgotten Hero",
+    "text":"Tell me...",
+    "next":"forgotten_10"
+},
+{
+    "id":"forgotten_10",
+    "speaker":"Forgotten Hero",
+    "text":"Did they show you the Hall of Heroes?",
+    "next":"forgotten_11"
+},
+{
+    "id":"forgotten_11",
+    "speaker":"Hero",
+    "text":"...Yes.",
+    "next":"forgotten_12"
+},
+{
+    "id":"forgotten_12",
+    "speaker":"Forgotten Hero",
+    "text":"Did you notice the empty pedestal?",
+    "next":"forgotten_13"
+},
+{
+    "id":"forgotten_13",
+    "speaker":"Narrator",
+    "text":"Without another word, the stranger unwraps a weathered cloth.",
+    "next":"forgotten_14"
+},
+{
+    "id":"forgotten_14",
+    "speaker":"Narrator",
+    "text":"Inside lies an ancient sword, its hilt matching the broken statue from the Hall of Heroes.",
+    "next":"forgotten_15"
+},
+{
+    "id":"forgotten_15",
+    "speaker":"Hero",
+    "text":"That's...",
+    "next":"forgotten_16"
+},
+{
+    "id":"forgotten_16",
+    "speaker":"Forgotten Hero",
+    "text":"The sword they claimed was lost.",
+    "next":"forgotten_17"
+},
+{
+    "id":"forgotten_17",
+    "speaker":"Forgotten Hero",
+    "text":"It was never lost.",
+    "next":"forgotten_18"
+},
+{
+    "id":"forgotten_18",
+    "speaker":"Forgotten Hero",
+    "text":"It was hidden.",
+    "next":"forgotten_19"
+},
+{
+    "id":"forgotten_19",
+    "speaker":"Forgotten Hero",
+    "text":"I don't know whether the King believes the lie...",
+    "next":"forgotten_20"
+},
+{
+    "id":"forgotten_20",
+    "speaker":"Forgotten Hero",
+    "text":"...or whether he's protecting it.",
+    "next":"forgotten_21"
+},
+{
+    "id":"forgotten_21",
+    "speaker":"Forgotten Hero",
+    "text":"There's a difference.",
+    "next":"forgotten_choice"
+},
+{
+    "id":"forgotten_choice",
+    "speaker":"Forgotten Hero",
+    "text":"Come with me, and I'll show you the truth. Return to the King, and you'll hear his version.",
+    "choices":[
+        {
+            "text":"Go with the Forgotten Hero.",
+            "next":"truth_path"
+        },
+        {
+            "text":"Return to the capital.",
+            "next":"king_path"
+        }
+    ]
+},
+{
+    "id":"truth_path",
+    "speaker":"Narrator",
+    "text":"You follow the Forgotten Hero through hidden tunnels beneath the temple.",
+    "next":"merge16_1"
+},
+{
+    "id":"king_path",
+    "speaker":"Narrator",
+    "text":"You leave the temple and ride back to the capital, carrying more questions than answers.",
+    "next":"merge16_1"
+},
+{
+    "id":"merge16_1",
+    "speaker":"Narrator",
+    "text":"Days later, fragments of evidence begin to form a larger picture.",
+    "next":"merge16_2"
+},
+{
+    "id":"merge16_2",
+    "speaker":"Narrator",
+    "text":"Old journals. Broken monuments. Forgotten records. None tell the whole story, but together they reveal a pattern.",
+    "next":"merge16_3"
+},
+{
+    "id":"merge16_3",
+    "speaker":"Hero",
+    "text":"The prophecy isn't false...",
+    "next":"merge16_4"
+},
+{
+    "id":"merge16_4",
+    "speaker":"Hero",
+    "text":"It's incomplete.",
+    "next":"merge16_5"
+},
+{
+    "id":"merge16_5",
+    "speaker":"Narrator",
+    "text":"One final document survives almost untouched.",
+    "next":"merge16_6"
+},
+{
+    "id":"merge16_6",
+    "speaker":"Ancient Chronicle",
+    "text":"'When darkness rises, a Hero shall stand against it.'",
+    "next":"merge16_7"
+},
+{
+    "id":"merge16_7",
+    "speaker":"Ancient Chronicle",
+    "text":"'Should the Hero seek only victory, they will become the very darkness they swore to destroy.'",
+    "next":"merge16_8"
+},
+{
+    "id":"merge16_8",
+    "speaker":"Narrator",
+    "text":"You read the sentence again.",
+    "next":"merge16_9"
+},
+{
+    "id":"merge16_9",
+    "speaker":"Hero",
+    "text":"...That part was erased.",
+    "next":"merge16_10"
+},
+{
+    "id":"merge16_10",
+    "speaker":"Narrator",
+    "text":"For the first time, the prophecy no longer feels like a promise. It feels like a warning."
+},
+{
+    "id":"merge16_11",
+    "speaker":"Forgotten Hero",
+    "text":"Now you understand why I refused to finish the journey.",
+    "next":"merge16_12"
+},
+{
+    "id":"merge16_12",
+    "speaker":"Hero",
+    "text":"You abandoned your destiny?",
+    "next":"merge16_13"
+},
+{
+    "id":"merge16_13",
+    "speaker":"Forgotten Hero",
+    "text":"No.",
+    "next":"merge16_14"
+},
+{
+    "id":"merge16_14",
+    "speaker":"Forgotten Hero",
+    "text":"I refused to become what destiny demanded."
+},
+{
+    "id":"merge16_15",
+    "speaker":"Forgotten Hero",
+    "text":"Ask yourself this...",
+    "next":"merge16_16"
+},
+{
+    "id":"merge16_16",
+    "speaker":"Forgotten Hero",
+    "text":"If every Hero eventually becomes the darkness...",
+    "next":"merge16_17"
+},
+{
+    "id":"merge16_17",
+    "speaker":"Forgotten Hero",
+    "text":"Then who writes the prophecy?"
 }
 ]
+   
