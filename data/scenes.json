@@ -2638,7 +2638,172 @@
     "speaker":"Messenger",
     "text":"The King requests your presence... immediately.",
     "next":"chapter18_intro"
+},
+{
+    "id":"chapter18_intro",
+    "speaker":"Narrator",
+    "text":"The throne room is empty except for the King.",
+    "next":"king_secret_1"
+},
+{
+    "id":"king_secret_1",
+    "speaker":"King",
+    "text":"Close the doors.",
+    "next":"king_secret_2"
+},
+{
+    "id":"king_secret_2",
+    "speaker":"Narrator",
+    "text":"The great doors shut behind you. The echoes fade into silence.",
+    "next":"king_secret_3"
+},
+{
+    "id":"king_secret_3",
+    "speaker":"King",
+    "text":"Tell me...",
+    "next":"king_secret_4"
+},
+{
+    "id":"king_secret_4",
+    "speaker":"King",
+    "text":"Have you met the Forgotten Hero?",
+    "next":"king_secret_5"
+},
+{
+    "id":"king_secret_5",
+    "speaker":"Hero",
+    "text":"...Yes.",
+    "next":"king_secret_6"
+},
+{
+    "id":"king_secret_6",
+    "speaker":"King",
+    "text":"Then you already know the prophecy was changed.",
+    "next":"king_secret_7"
+},
+{
+    "id":"king_secret_7",
+    "speaker":"Hero",
+    "text":"You knew?",
+    "next":"king_secret_8"
+},
+{
+    "id":"king_secret_8",
+    "speaker":"King",
+    "text":"Of course I knew.",
+    "next":"king_secret_9"
+},
+{
+    "id":"king_secret_9",
+    "speaker":"King",
+    "text":"My father knew.",
+    "next":"king_secret_10"
+},
+{
+    "id":"king_secret_10",
+    "speaker":"King",
+    "text":"His father knew.",
+    "next":"king_secret_11"
+},
+{
+    "id":"king_secret_11",
+    "speaker":"King",
+    "text":"Every king has known for centuries."
+},
+{
+    "id":"king_secret_12",
+    "speaker":"King",
+    "text":"The complete prophecy destroys hope.",
+    "next":"king_secret_13"
+},
+{
+    "id":"king_secret_13",
+    "speaker":"King",
+    "text":"A kingdom that believes every Hero becomes the darkness would never follow one.",
+    "next":"king_secret_14"
+},
+{
+    "id":"king_secret_14",
+    "speaker":"Hero",
+    "text":"So you lied to everyone...",
+    "next":"king_secret_15"
+},
+{
+    "id":"king_secret_15",
+    "speaker":"King",
+    "text":"I gave them something to believe in."
+},
+{
+    "id":"king_secret_16",
+    "speaker":"King",
+    "text":"Tell me honestly...",
+    "next":"king_secret_17"
+},
+{
+    "id":"king_secret_17",
+    "speaker":"King",
+    "text":"If the people had known the truth...",
+    "next":"king_secret_18"
+},
+{
+    "id":"king_secret_18",
+    "speaker":"King",
+    "text":"Would you ever have become the Hero?"
+},
+{
+    "id":"king_secret_19",
+    "speaker":"King",
+    "text":"You think the prophecy is a warning.",
+    "next":"king_secret_20"
+},
+{
+    "id":"king_secret_20",
+    "speaker":"King",
+    "text":"It isn't.",
+    "next":"king_secret_21"
+},
+{
+    "id":"king_secret_21",
+    "speaker":"King",
+    "text":"It's a cycle.",
+    "next":"king_secret_22"
+},
+{
+    "id":"king_secret_22",
+    "speaker":"Hero",
+    "text":"A cycle?",
+    "next":"king_secret_23"
+},
+{
+    "id":"king_secret_23",
+    "speaker":"King",
+    "text":"Every generation...",
+    "next":"king_secret_24"
+},
+{
+    "id":"king_secret_24",
+    "speaker":"King",
+    "text":"The Hero defeats the darkness.",
+    "next":"king_secret_25"
+},
+{
+    "id":"king_secret_25",
+    "speaker":"King",
+    "text":"Then the Hero becomes it.",
+    "next":"king_secret_26"
+
+},
+{
+    "id":"king_secret_26",
+    "speaker":"King",
+    "text":"The question isn't whether you'll become the villain...",
+    "next":"king_secret_27"
+},
+{
+    "id":"king_secret_27",
+    "speaker":"King",
+    "text":"The question is whether you'll choose what kind of villain you'll be."
 }
 ]
-        
-                       
+          
+      
