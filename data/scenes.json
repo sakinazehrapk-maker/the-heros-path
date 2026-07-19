@@ -1896,6 +1896,133 @@
     "speaker":"Narrator",
     "text":"You quietly fold the letter and slip it inside your cloak.",
     "next":"chapter12_intro"
+},
+{
+    "id":"chapter12_intro",
+    "speaker":"Narrator",
+    "text":"The capital welcomes you as a hero. Crowds cheer as you pass through the city gates.",
+    "next":"hall_1"
+},
+{
+    "id":"hall_1",
+    "speaker":"Royal Advisor",
+    "text":"His Majesty is meeting with the council. Until then, perhaps you'd like to see the Hall of Heroes.",
+    "next":"hall_2"
+},
+{
+    "id":"hall_2",
+    "speaker":"Narrator",
+    "text":"You enter a vast marble hall lined with towering statues. Each one honors a legendary Hero of the kingdom.",
+    "next":"hall_3"
+},
+{
+    "id":"hall_3",
+    "speaker":"Royal Advisor",
+    "text":"Every generation has produced a Hero worthy of remembrance.",
+    "next":"hall_4"
+},
+{
+    "id":"hall_4",
+    "speaker":"Narrator",
+    "text":"You pause before the oldest statue. Time has worn away its face.",
+    "next":"hall_5"
+},
+{
+    "id":"hall_5",
+    "speaker":"Hero",
+    "text":"Who was this?",
+    "next":"hall_6"
+},
+{
+    "id":"hall_6",
+    "speaker":"Royal Advisor",
+    "text":"The records are... incomplete. Only the title remains: 'The First Hero.'",
+    "next":"hall_7"
+},
+{
+    "id":"hall_7",
+    "speaker":"Narrator",
+    "text":"Something feels strange. Every statue holds a sword... except the first.",
+    "next":"hall_8"
+},
+{
+    "id":"hall_8",
+    "speaker":"Hero",
+    "text":"Why is the sword missing?",
+    "next":"hall_9"
+},
+{
+    "id":"hall_9",
+    "speaker":"Royal Advisor",
+    "text":"No one knows. It was lost centuries ago.",
+    "next":"hall_10"
+},
+{
+    "id":"hall_10",
+    "speaker":"Narrator",
+    "text":"The answer comes too quickly, as though it has been repeated many times before.",
+    "next":"hall_choice"
+},
+{
+    "id":"hall_choice",
+    "speaker":"Narrator",
+    "text":"The Advisor walks ahead. You glance back at the First Hero's statue.",
+    "choices":[
+        {
+            "text":"Examine the statue.",
+            "next":"statue_secret"
+        },
+        {
+            "text":"Follow the Advisor.",
+            "next":"king_meeting"
+        }
+    ]
+},
+{
+    "id":"statue_secret",
+    "speaker":"Narrator",
+    "text":"You step closer. At the base of the statue, beneath centuries of dust, you notice faint scratches.",
+    "next":"statue_secret_2"
+},
+{
+    "id":"statue_secret_2",
+    "speaker":"Narrator",
+    "text":"Someone carved a message so small it was meant to remain hidden.",
+    "next":"statue_secret_3"
+},
+{
+    "id":"statue_secret_3",
+    "speaker":"Narrator",
+    "text":"'Heroes are remembered. Truth is buried.'",
+    "next":"king_meeting"
+},
+{
+    "id":"king_meeting",
+    "speaker":"Narrator",
+    "text":"Moments later, the palace doors open. The King is waiting.",
+    "next":"king_meeting_2"
+},
+{
+    "id":"king_meeting_2",
+    "speaker":"King",
+    "text":"Welcome back, Hero. You've done well.",
+    "next":"king_meeting_3"
+},
+{
+    "id":"king_meeting_3",
+    "speaker":"King",
+    "text":"But our greatest challenge still lies ahead.",
+    "next":"king_meeting_4"
+},
+{
+    "id":"king_meeting_4",
+    "speaker":"Narrator",
+    "text":"The King's gaze lingers on you for just a moment longer than expected.",
+    "next":"king_meeting_5"
+},
+{
+    "id":"king_meeting_5",
+    "speaker":"King",
+    "text":"Tell me... do you still believe in the prophecy?"
 }
 ]
-                                              
