@@ -2113,7 +2113,148 @@
 {
     "id":"chapter13_end",
     "speaker":"Narrator",
-    "text":"For the first time, the King sends you not to fight... but to seek the truth."
+    "text":"For the first time, the King sends you not to fight... but to seek the truth.",
+    "next":"chapter14_intro"
+},
+{
+    "id":"chapter14_intro",
+    "speaker":"Narrator",
+    "text":"After several days of travel, the Temple of Light comes into view, carved into the side of a snow-covered mountain.",
+    "next":"temple_1"
+},
+{
+    "id":"temple_1",
+    "speaker":"Narrator",
+    "text":"The temple is silent. No priests greet you. No pilgrims fill its halls.",
+    "next":"temple_2"
+},
+{
+    "id":"temple_2",
+    "speaker":"Hero",
+    "text":"Is anyone here?",
+    "next":"temple_3"
+},
+{
+    "id":"temple_3",
+    "speaker":"Narrator",
+    "text":"Only your own voice answers.",
+    "next":"temple_4"
+},
+{
+    "id":"temple_4",
+    "speaker":"Narrator",
+    "text":"Sunlight pours through broken stained-glass windows, illuminating an ancient altar.",
+    "next":"temple_5"
+},
+{
+    "id":"temple_5",
+    "speaker":"Narrator",
+    "text":"Upon the altar rests a massive stone book.",
+    "next":"temple_6"
+},
+{
+    "id":"temple_6",
+    "speaker":"Hero",
+    "text":"The Book of Prophecy...",
+    "next":"temple_7"
+},
+{
+    "id":"temple_7",
+    "speaker":"Narrator",
+    "text":"The pages are carved from polished stone instead of paper.",
+    "next":"temple_8"
+},
+{
+    "id":"temple_8",
+    "speaker":"Narrator",
+    "text":"Many of the words have been deliberately chiseled away.",
+    "next":"temple_choice"
+},
+{
+    "id":"temple_choice",
+    "speaker":"Narrator",
+    "text":"Most of the prophecy has been erased.",
+    "choices":[
+        {
+            "text":"Read what remains.",
+            "next":"prophecy_read"
+        },
+        {
+            "text":"Examine the damaged pages.",
+            "next":"prophecy_damage"
+        }
+    ]
+},
+{
+    "id":"prophecy_read",
+    "speaker":"Narrator",
+    "text":"Only a few complete lines remain.",
+    "next":"prophecy_read_2"
+},
+{
+    "id":"prophecy_read_2",
+    "speaker":"Ancient Text",
+    "text":"'When darkness rises, the Hero shall stand against it...'",
+    "next":"prophecy_read_3"
+},
+{
+    "id":"prophecy_read_3",
+    "speaker":"Ancient Text",
+    "text":"'...and restore balance.'",
+    "next":"temple_merge"
+},
+{
+    "id":"prophecy_damage",
+    "speaker":"Narrator",
+    "text":"The missing sections weren't worn away by time.",
+    "next":"prophecy_damage_2"
+},
+{
+    "id":"prophecy_damage_2",
+    "speaker":"Narrator",
+    "text":"Someone carefully carved them out using tools.",
+    "next":"prophecy_damage_3"
+},
+{
+    "id":"prophecy_damage_3",
+    "speaker":"Hero",
+    "text":"Someone wanted these words forgotten...",
+    "next":"temple_merge"
+},
+{
+    "id":"temple_merge",
+    "speaker":"Narrator",
+    "text":"As you turn another page, a loose fragment of stone falls from the binding.",
+    "next":"fragment_1"
+},
+{
+    "id":"fragment_1",
+    "speaker":"Narrator",
+    "text":"Unlike the other pages, this fragment still bears untouched writing.",
+    "next":"fragment_2"
+},
+{
+    "id":"fragment_2",
+    "speaker":"Ancient Text",
+    "text":"'Beware the Hero who mistakes obedience for righteousness.'",
+    "next":"fragment_3"
+},
+{
+    "id":"fragment_3",
+    "speaker":"Hero",
+    "text":"...What does that mean?",
+    "next":"fragment_4"
+},
+{
+    "id":"fragment_4",
+    "speaker":"Narrator",
+    "text":"Before you can read further, footsteps echo through the temple.",
+    "next":"fragment_5"
+},
+{
+    "id":"fragment_5",
+    "speaker":"???",
+    "text":"You're reading the wrong version.",
+    "next":"chapter15_intro"
 }
 ]
-                                 
