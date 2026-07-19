@@ -168,7 +168,8 @@
 {
     "id":"city_mercy_1",
     "speaker":"Narrator",
-    "text":"You leave the palace. The marketplace buzzes with life."
+    "text":"You leave the palace. The marketplace buzzes with life.",
+    "next":"city_mercy_2"
 },
 {
     "id":"city_mercy_2",
@@ -634,7 +635,8 @@
 {
     "id":"fight_1",
     "speaker":"Narrator",
-    "text":"You draw your sword. The steel gleams faintly beneath the moonlight as the creature steps from the darkness."
+    "text":"You draw your sword. The steel gleams faintly beneath the moonlight as the creature steps from the darkness.",
+    "next":"fight_2"
 },
 {
     "id":"fight_2",
@@ -1713,7 +1715,8 @@
 {
     "id":"boss_6",
     "speaker":"Narrator",
-    "text":"Without another word, the assassin attacks."
+    "text":"Without another word, the assassin attacks.",
+    "next":"boss_7"
 },
 {
     "id":"boss_7",
@@ -1871,7 +1874,8 @@
 {
     "id":"letter_15",
     "speaker":"Unknown Writer",
-    "text":"...why does the kingdom always need another Hero?"
+    "text":"...why does the kingdom always need another Hero?",
+    "next":"letter_16"
 },
 {
     "id":"letter_16",
@@ -2496,7 +2500,8 @@
 {
     "id":"merge16_14",
     "speaker":"Forgotten Hero",
-    "text":"I refused to become what destiny demanded."
+    "text":"I refused to become what destiny demanded.",
+    "next":"merge16_15"
 },
 {
     "id":"merge16_15",
@@ -2708,7 +2713,8 @@
 {
     "id":"king_secret_11",
     "speaker":"King",
-    "text":"Every king has known for centuries."
+    "text":"Every king has known for centuries.",
+    "next":"king_secret_12"
 },
 {
     "id":"king_secret_12",
@@ -2731,7 +2737,8 @@
 {
     "id":"king_secret_15",
     "speaker":"King",
-    "text":"I gave them something to believe in."
+    "text":"I gave them something to believe in.",
+    "next":"king_secret_16"
 },
 {
     "id":"king_secret_16",
@@ -2748,7 +2755,8 @@
 {
     "id":"king_secret_18",
     "speaker":"King",
-    "text":"Would you ever have become the Hero?"
+    "text":"Would you ever have become the Hero?",
+    "next":"king_secret_19"
 },
 {
     "id":"king_secret_19",
@@ -2802,8 +2810,124 @@
 {
     "id":"king_secret_27",
     "speaker":"King",
-    "text":"The question is whether you'll choose what kind of villain you'll be."
+    "text":"The question is whether you'll choose what kind of villain you'll be.",
+    "next":"chapter19_intro"
+},
+{
+    "id":"chapter19_intro",
+    "speaker":"Narrator",
+    "text":"Three days later, the kingdom stands on the edge of collapse.",
+    "next":"campaign_1"
+},
+{
+    "id":"campaign_1",
+    "speaker":"Narrator",
+    "text":"The Ashen Order controls half the realm. Royal armies hold the other half.",
+    "next":"campaign_2"
+},
+{
+    "id":"campaign_2",
+    "speaker":"Narrator",
+    "text":"Fields burn. Villages stand empty. Refugees flood the roads.",
+    "next":"campaign_3"
+},
+{
+    "id":"campaign_3",
+    "speaker":"Royal Advisor",
+    "text":"Every day we wait, more people die.",
+    "next":"campaign_4"
+},
+{
+    "id":"campaign_4",
+    "speaker":"King",
+    "text":"This war must end.",
+    "next":"campaign_choice"
+},
+{
+    "id":"campaign_choice",
+    "speaker":"Narrator",
+    "text":"The kingdom waits for your command.",
+    "choices":[
+        {
+            "text":"Launch one final assault.",
+            "next":"assault_path"
+        },
+        {
+            "text":"Offer peace talks.",
+            "next":"peace_path"
+        }
+    ]
+},
+{
+    "id":"assault_path",
+    "speaker":"Hero",
+    "text":"Every day this war continues, more innocent people suffer. We end it now.",
+    "next":"assault_2"
+},
+{
+    "id":"assault_2",
+    "speaker":"Narrator",
+    "text":"The largest army in the kingdom's history marches before sunrise.",
+    "next":"assault_3"
+},
+{
+    "id":"assault_3",
+    "speaker":"Narrator",
+    "text":"The battle is won...",
+    "next":"assault_4"
+},
+{
+    "id":"assault_4",
+    "speaker":"Narrator",
+    "text":"...at a terrible cost.",
+    "next":"merge19"
+},
+{
+    "id":"peace_path",
+    "speaker":"Hero",
+    "text":"If there's one chance to stop this bloodshed without another battle... we take it.",
+    "next":"peace_2"
+},
+{
+    "id":"peace_2",
+    "speaker":"Narrator",
+    "text":"Representatives of both sides meet beneath a white banner.",
+    "next":"peace_3"
+},
+{
+    "id":"peace_3",
+    "speaker":"Narrator",
+    "text":"The talks end in betrayal. Fighting erupts before sunset.",
+    "next":"peace_4"
+},
+{
+    "id":"peace_4",
+    "speaker":"Narrator",
+    "text":"The war continues anyway.",
+    "next":"merge19"
+},
+{
+    "id":"merge19",
+    "speaker":"Narrator",
+    "text":"No matter what you chose, the kingdom is forever changed.",
+    "next":"merge19_2"
+},
+{
+    "id":"merge19_2",
+    "speaker":"Narrator",
+    "text":"The Ashen Order is broken. Its leader has vanished.",
+    "next":"merge19_3"
+},
+{
+    "id":"merge19_3",
+    "speaker":"Narrator",
+    "text":"The people call you a savior.",
+    "next":"merge19_4"
+},
+{
+    "id":"merge19_4",
+    "speaker":"Hero",
+    "text":"...Then why does this feel like defeat?"
 }
 ]
-          
-      
+
