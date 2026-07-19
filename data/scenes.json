@@ -2023,6 +2023,97 @@
 {
     "id":"king_meeting_5",
     "speaker":"King",
-    "text":"Tell me... do you still believe in the prophecy?"
+    "text":"Tell me... do you still believe in the prophecy?",
+    "next":"chapter13_1"
+},
+{
+    "id":"chapter13_1",
+    "speaker":"Hero",
+    "text":"...I'm beginning to question it.",
+    "next":"chapter13_2"
+},
+{
+    "id":"chapter13_2",
+    "speaker":"Narrator",
+    "text":"The council chamber falls completely silent.",
+    "next":"chapter13_3"
+},
+{
+    "id":"chapter13_3",
+    "speaker":"Royal Advisor",
+    "text":"Your Majesty...",
+    "next":"chapter13_4"
+},
+{
+    "id":"chapter13_4",
+    "speaker":"King",
+    "text":"It's alright.",
+    "next":"chapter13_5"
+},
+{
+    "id":"chapter13_5",
+    "speaker":"King",
+    "text":"Every Hero reaches this point.",
+    "next":"chapter13_6"
+},
+{
+    "id":"chapter13_6",
+    "speaker":"Hero",
+    "text":"Every Hero?",
+    "next":"chapter13_7"
+},
+{
+    "id":"chapter13_7",
+    "speaker":"King",
+    "text":"The burden of destiny creates doubt.",
+    "next":"chapter13_8"
+},
+{
+    "id":"chapter13_8",
+    "speaker":"King",
+    "text":"That is why you must never face it alone.",
+    "next":"chapter13_9"
+},
+{
+    "id":"chapter13_9",
+    "speaker":"Narrator",
+    "text":"The King's words are reassuring... yet they sound strangely rehearsed.",
+    "next":"chapter13_10"
+},
+{
+    "id":"chapter13_10",
+    "speaker":"King",
+    "text":"There is one place you have yet to visit.",
+    "next":"chapter13_11"
+},
+{
+    "id":"chapter13_11",
+    "speaker":"Hero",
+    "text":"Where?",
+    "next":"chapter13_12"
+},
+{
+    "id":"chapter13_12",
+    "speaker":"King",
+    "text":"The Temple of Light.",
+    "next":"chapter13_13"
+},
+{
+    "id":"chapter13_13",
+    "speaker":"King",
+    "text":"There... the prophecy began.",
+    "next":"chapter13_14"
+},
+{
+    "id":"chapter13_14",
+    "speaker":"King",
+    "text":"Perhaps there... you'll find the answers you seek.",
+    "next":"chapter13_end"
+},
+{
+    "id":"chapter13_end",
+    "speaker":"Narrator",
+    "text":"For the first time, the King sends you not to fight... but to seek the truth."
 }
 ]
+                                 
