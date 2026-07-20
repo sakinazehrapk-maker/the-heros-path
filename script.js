@@ -147,3 +147,14 @@ if (currentScene==="merchant_choice"){
     player.duty+=1;
     rememberDecision("ignored_merchant");
 }
+function hasDecision(id){
+    return player.decisions.includes(id);
+}
+if(hasDecision("spared_child")){
+    currentScene = "ending_spared_1";
+}
+else{
+    currentScene = "ending_arrested_1";
+}
+
+loadScene();

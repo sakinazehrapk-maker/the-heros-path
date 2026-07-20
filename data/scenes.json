@@ -2988,6 +2988,78 @@
     "id":"ending_1",
     "speaker":"Narrator",
     "text":"Five years later..."
+},
+{
+    "id":"ending_spared_1",
+    "speaker":"Young Adult",
+    "text":"Your Majesty...",
+    "next":"ending_spared_2"
+},
+{
+    "id":"ending_spared_2",
+    "speaker":"Hero",
+    "text":"Have we met?",
+    "next":"ending_spared_3"
+},
+{
+    "id":"ending_spared_3",
+    "speaker":"Young Adult",
+    "text":"Years ago... I stole bread.",
+    "next":"ending_spared_4"
+},
+{
+    "id":"ending_spared_4",
+    "speaker":"Young Adult",
+    "text":"You chose mercy.",
+    "next":"ending_spared_5"
+},
+{
+    "id":"ending_spared_5",
+    "speaker":"Young Adult",
+    "text":"Because of you... my sister survived.",
+    "next":"ending_merge"
+},
+{
+    "id":"ending_arrested_1",
+    "speaker":"Royal Guard",
+    "text":"Your Majesty. A prisoner wishes to speak with you.",
+    "next":"ending_arrested_2"
+},
+{
+    "id":"ending_arrested_2",
+    "speaker":"Young Man",
+    "text":"Do you remember me?",
+    "next":"ending_arrested_3"
+},
+{
+    "id":"ending_arrested_3",
+    "speaker":"Young Man",
+    "text":"I stole bread.",
+    "next":"ending_arrested_4"
+},
+{
+    "id":"ending_arrested_4",
+    "speaker":"Young Man",
+    "text":"You taught me that justice can exist without mercy.",
+    "next":"ending_arrested_5"
+},
+{
+    "id":"ending_arrested_5",
+    "speaker":"Young Man",
+    "text":"I survived... but I never forgot.",
+    "next":"ending_merge"
+},
+{
+    "id":"ending_merge",
+    "speaker":"Young Man",
+    "text":"You changed my life.",
+    "next":"ending_merge_2"
+},
+{
+    "id":"ending_merge_2",
+    "speaker":"Young Man",
+    "text":"I still don't know if it was for the better.",
+    "next":"hall_final"
 }
 ]
 
