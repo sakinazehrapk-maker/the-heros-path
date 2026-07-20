@@ -59,31 +59,6 @@
     "text":"Before your journey begins... tell us your name."
 },
 {
-    "id":"castle",
-    "speaker": "Royal Advisor",
-    "portrait": "assets/portraits/advisor.png",
-    "text": "His Majesty has been expecting you.",
-    "next": "king_intro"
-},
-{
-    "id": "king_intro",
-    "speaker": "King Aldric",
-    "portrait": "assets/portraits/king.png",
-    "text": "Welcome, {{name}}. The fate of our kingdom rests upon your shoulders."
-},
-{
-    "id": "marketplace",
-    "speaker": "Merchant",
-    "portrait": "assets/portraits/merchant.png",
-    "text": "Fresh fruit! Fine steel! Everything a hero could need!"
-},
-{
-    "id": "barracks",
-    "speaker": "Captain Rowan",
-    "portrait": "assets/portraits/captain.png",
-    "text": "Our soldiers have been waiting to meet the Hero."
-},
-{
     "id": "king_1",
     "speaker": "King Aldric",
     "portrait": "assets/portraits/king.png",
@@ -175,7 +150,8 @@
     "id":"city_mercy_2",
     "speaker":"Merchant",
     "portrait":"assets/portraits/merchant.png",
-    "text":"Stop! Someone stole my money!"
+    "text":"Stop! Someone stole my money!",
+    "next":"city_mercy_3"
 },
 {
     "id":"city_mercy_3",
@@ -710,9 +686,40 @@
     "next":"shrine_1"
 },
 {
+        "id": "save_hunter",
+        "speaker": "Narrator",
+        "text": "You help the hunter get up on your back and start to carry him towards the village",
+        "next": "save_hunter1"
+    },
+    {
+        "id": "save_hunter1",
+        "speaker": "Hunter",
+        "text": "You didn't have to stop for me.",
+        "next": "save_hunter2"
+    },
+    {
+        "id": "save_hunter2",
+        "speaker": "Hero",
+        "text": "A Hero's duty is to protect every life, not just the important ones.",
+        "next": "save_hunter3"
+    },
+    {
+        "id": "save_hunter3",
+        "speaker": "Hunter",
+        "text": "I'll never forget your kindness",
+        "next": "save_hunter4"
+    },
+    {
+        "id":"save_hunter4",
+        "speak":"Narrator",
+        "text":"You enter the village and the villagers take the hunter away to treat him",
+        "next":"village_night_1"
+    },
+
+{
     "id":"village_night_1",
     "speaker":"Narrator",
-    "text":"You decide against entering the forest. The villagers reluctantly offer you a room for the night, though few expect anyone to sleep peacefully.",
+    "text":"The villagers offer you a room for the night, though few expect anyone to sleep peacefully.",
     "next":"village_night_2"
 },
 {
@@ -3059,7 +3066,120 @@
     "id":"ending_merge_2",
     "speaker":"Young Man",
     "text":"I still don't know if it was for the better.",
-    "next":"hall_final"
-}
+    "next":"epilogue_1"
+},
+[
+    {
+        "id": "epilogue_1",
+        "speaker": "Narrator",
+        "text": "Five years have passed since the war.\n\nThe kingdom has never been safer.\n\nThere are no rebellions.\n\nThere are no thieves.\n\nThere are no wars.",
+        "next": "epilogue_2"
+    },
+    {
+        "id": "epilogue_2",
+        "speaker": "Narrator",
+        "text": "You walk through the capital alone.\n\nPeople bow as you pass.\n\nNo one dares meet your eyes.",
+        "next": "epilogue_3"
+    },
+    {
+        "id": "epilogue_3",
+        "speaker": "Narrator",
+        "text": "The streets are quiet.\n\nToo quiet.\n\nPeace has finally come...\n\nYet no one smiles.",
+        "next": "hall_1"
+    },
+
+    {
+        "id": "hall_1",
+        "speaker": "Narrator",
+        "text": "You enter the Hall of Heroes.\n\nA new statue stands in the center.\n\nYour statue.",
+        "next": "hall_2"
+    },
+    {
+        "id": "hall_2",
+        "speaker": "Narrator",
+        "text": "Fresh flowers rest beneath it.\n\nAn inscription reads:\n\n\"He united the kingdom.\"\n\"He ended the age of darkness.\"\n\"He brought everlasting peace.\"",
+        "next": "hall_3"
+    },
+    {
+        "id": "hall_3",
+        "speaker": "Child",
+        "text": "Excuse me...\n\nAre you really the Great Hero?",
+        "next": "hall_4"
+    },
+    {
+        "id": "hall_4",
+        "speaker": "Hero",
+        "text": "...\n\nYes.",
+        "next": "hall_5"
+    },
+    {
+        "id": "hall_5",
+        "speaker": "Child",
+        "text": "I want to grow up to be just like you.",
+        "next": "hall_6"
+    },
+    {
+        "id": "hall_6",
+        "speaker": "Narrator",
+        "text": "You look around.\n\nGuards stand at every corner.\n\nCitizens whisper instead of speaking.\n\nNo one argues.\n\nNo one questions.\n\nOnly silence.",
+        "next": "hall_7"
+    },
+    {
+        "id": "hall_7",
+        "speaker": "Narrator",
+        "text": "You remember...\n\nThe starving child.\nThe burning forest.\nThe battlefield.\nThe Temple.\nThe King.\n\nEvery choice you made...\n\nEvery sacrifice you justified.",
+        "next": "hall_8"
+    },
+    {
+        "id": "hall_8",
+        "speaker": "Hero",
+        "text": "...No.",
+        "next": "hall_9"
+    },
+    {
+        "id": "hall_9",
+        "speaker": "Child",
+        "text": "Why not?",
+        "next": "hall_10"
+    },
+    {
+        "id": "hall_10",
+        "speaker": "Hero",
+        "text": "Because heroes should leave the world needing fewer heroes...\n\nNot more.",
+        "next": "book_1"
+    },
+
+    {
+        "id": "book_1",
+        "speaker": "Narrator",
+        "text": "Years later...",
+        "next": "book_2"
+    },
+    {
+        "id": "book_2",
+        "speaker": "Teacher",
+        "text": "Class...\n\nToday we begin the history of the Dark Lord.",
+        "next": "book_3"
+    },
+    {
+        "id": "book_3",
+        "speaker": "Narrator",
+        "text": "A history book opens.\n\nThe illustration is unmistakable.\n\nIt is you.",
+        "next": "book_4"
+    },
+    {
+        "id": "book_4",
+        "speaker": "Narrator",
+        "text": "Every hero saves the world.\n\nEvery villain thought they were the hero.\n\n\nTHE HERO'S PATH",
+        "next": "credits"
+    },
+    {
+        "id": "credits",
+        "speaker": "",
+        "text": "Thank you for playing.",
+        "next": null
+    }
+]
 ]
 
+ 
