@@ -2927,7 +2927,67 @@
 {
     "id":"merge19_4",
     "speaker":"Hero",
-    "text":"...Then why does this feel like defeat?"
+    "text":"...Then why does this feel like defeat?",
+    "next":"chapter20_intro"
+},
+{
+    "id":"chapter20_intro",
+    "speaker":"Narrator",
+    "text":"Weeks after the war, the kingdom struggles to rebuild.",
+    "next":"crown_1"
+},
+{
+    "id":"crown_1",
+    "speaker":"Narrator",
+    "text":"The King addresses the people one final time.",
+    "next":"crown_2"
+},
+{
+    "id":"crown_2",
+    "speaker":"King",
+    "text":"This kingdom no longer needs an old king.",
+    "next":"crown_3"
+},
+{
+    "id":"crown_3",
+    "speaker":"King",
+    "text":"It needs its Hero.",
+    "next":"crown_4"
+},
+{
+    "id":"crown_4",
+    "speaker":"Narrator",
+    "text":"Thousands cheer your name.",
+    "next":"crown_5"
+},
+{
+    "id":"crown_5",
+    "speaker":"Hero",
+    "text":"I never wanted this.",
+    "next":"crown_6"
+},
+{
+    "id":"crown_6",
+    "speaker":"King",
+    "text":"Neither did I.",
+    "next":"crown_7"
+},
+{
+    "id":"crown_7",
+    "speaker":"Narrator",
+    "text":"The weight of the crown surprises you.",
+    "next":"crown_8"
+},
+{
+    "id":"crown_8",
+    "speaker":"King",
+    "text":"Rule better than I did.",
+    "next":"ending_1"
+},
+{
+    "id":"ending_1",
+    "speaker":"Narrator",
+    "text":"Five years later..."
 }
 ]
 
